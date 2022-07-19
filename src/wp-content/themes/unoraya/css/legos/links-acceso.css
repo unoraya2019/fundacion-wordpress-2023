@@ -1,0 +1,20 @@
+    .links_acceso h2 {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .links_acceso h3 {
+        font-size: 45px;
+        text-align: center;
+        line-height: 1;
+        margin: 0 auto 20px;
+        color: #ff6804;
+    }
+    .links_acceso hr {
+        border: 6px solid #ff6705;
+        width: 50px;
+        margin: 0px auto;
+        margin-bottom: 60px;
+        opacity: 1;
+    }

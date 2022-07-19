@@ -1,0 +1,50 @@
+    section.carta_director {
+        width: 90%;
+        position: relative;
+        margin: 130px auto 0;
+    }
+    .carta_director img {
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #ff6804;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -220px;
+    }
+    .carta_director h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-size: 19px;
+        color: #ff6705;
+    }
+    .carta_director h3 {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .carta_director__item {
+        flex: 1;
+        padding: 40px 20px;
+    }
+    .carta_director p {
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    section.banner-programa img.img-fluid{
+        max-width: 140px;
+    }
+    @media (max-width: 600px) {
+        .carta_director__content {
+            flex-flow: column;
+        }
+        .carta_director__item {
+            padding: 10px 20px;
+        }
+    }

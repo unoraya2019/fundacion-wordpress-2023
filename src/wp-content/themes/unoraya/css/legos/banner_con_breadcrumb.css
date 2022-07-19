@@ -1,0 +1,68 @@
+    .banner_con_breadcrumb .max-content {
+        position: relative;
+    }
+    .banner_con_breadcrumb__links {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        z-index: 9;
+        max-width: 1200px;
+        margin: 0px auto;
+        right: 0px;
+    }
+    .banner_con_breadcrumb__links > a {
+        color: #6fccdc;
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+    .banner_con_breadcrumb__links > span {
+        margin-left: 10px;
+    }
+    .banner_con_breadcrumb__links p svg {
+        width: 40px;
+        height: 40px;
+    }
+    .banner_con_breadcrumb__links p  a {
+        color: #fff;
+        font-family: 'Sensation Bold';
+    }
+    .banner_con_breadcrumb__links p a.breadcrump_gris {
+        color: #77777a;
+    }
+    .banner_con_breadcrumb__links--small {
+        position: relative;
+        top: 0px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .banner_con_breadcrumb__links--small h1 {
+        font-size: 30px;
+        text-align: center;
+        color: #ff671a;
+        line-height: 1;
+    }
+    @media (max-width: 600px) {
+        .object-fit-cover {
+            width: 100%;
+        }
+    }
+    section.banner_con_breadcrumb {
+        margin-bottom: 30px;
+    }
+    @media (max-width: 600px) {
+        section.banner_con_breadcrumb {
+            margin-bottom: 0px;
+            overflow: hidden;
+        }
+    }
+    .main-slider-at-top.aflora-pge:after {
+        background: #fff;
+    }
+    @media (max-width: 600px) {
+        .banner_con_breadcrumb__links--small h1 {
+            font-size: 25px;
+            width: 90%;
+            margin: 0px auto;
+            margin-bottom: 20px;
+        }
+    }

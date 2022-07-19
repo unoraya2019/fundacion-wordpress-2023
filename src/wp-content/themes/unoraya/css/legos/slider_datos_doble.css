@@ -1,0 +1,107 @@
+    .slider_datos .swiper-slide {
+            height: auto !important;
+    }
+     .slider_datos .swiper-wrapper {
+        pointer-events: none;
+    }
+    section.slider_datos {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+    section.slider_datos > h2 {
+        font-size: 50px;
+        color: #2f425b;
+        text-decoration: none solid #2f425b;
+        text-align: center;
+        position: relative;
+        width: 90%;
+        max-width: 900px;
+        margin: 0px auto;
+    }
+    section.slider_datos > hr {
+        border: solid 1px #2f425b;
+        max-width: 30%;
+        margin: 40px auto;
+        opacity: 1;
+    }
+    .slider_datos .swiper-slide {
+        width: 100% !important;
+        height: 100%;
+    }
+    p.slider_datos__btns {
+        text-align: center;
+    }
+    .slider_datos .slider_datos__item {
+        max-width: 900px;
+        width: 100%;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgb(17 24 32 / 10%);
+        padding: 20px;
+        margin: 0px auto;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider_datos .slider_datos__item img {
+        max-width: 310px;
+        margin-right: 30px;
+        width: auto;
+        height: auto;
+    }
+    .slider_datos .slider_datos__item p {
+        font-size: 14px;
+        color: #111820;
+        margin: 0px;
+    }
+    .slider_datos li {
+        font-size: 14px;
+    }
+    .slider_datos__btns .btn {
+        border: 1px solid #77777a;
+        color: #77777a;
+        border-radius: 5px;
+        background-color: #fff;
+        margin: 6px 4px;
+        line-height: 1;
+        margin-right: 20px;
+        min-width: 150px;
+        font-size: 14px;
+        padding: 12px 5px;
+    }
+    .slider_datos__btns .btn-active {
+        background-color: #ff671b;
+        border-color: #ff671b;
+        color: #f7f7f7;
+    }
+    .slider_datos__item__img {
+        position: relative;
+    }
+    .slider_datos__item__img span {
+        font-size: 26px;
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+        z-index: 99;
+        color: #fff;
+        font-family: 'Sensation Bold';
+    }
+    .slider_datos__btns {
+        overflow-x: scroll;
+    }
+    @media (max-width: 767px) {
+        section.slider_datos > h2 {
+            font-size: 30px;
+        }
+        .slider_datos .slider_datos__item {
+            flex-flow: column;
+        }
+        .slider_datos .slider_datos__item img {
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        .slider_datos__item__img span {
+            bottom: 30px;
+        }
+    }

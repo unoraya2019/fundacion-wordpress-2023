@@ -1,0 +1,17 @@
+    section.banner-programa p, section.banner-programa h1 {color: #fff; }
+    section.banner-programa .img-fluid {
+        max-width: 300px;
+    }
+    @media (max-width: 700px) {
+        section.banner-programa .img-fluid {
+            max-width: 200px;
+        }
+        .log-prt img {
+            max-width: 250px;
+            margin: 0px auto;
+            display: block;
+        }
+        .aflora-bnr-se p {
+            line-height: 19px;
+        }
+    }

@@ -1,0 +1,89 @@
+    .actualidad__item__text .btn_evento {
+        display: none;
+    }
+    section.actualidad {
+        margin: 60px auto;
+    }
+    section.actualidad h2 {
+        font-size: 50px;
+        max-width: 520px;
+        line-height: 1;
+        margin-bottom: 50px;
+    }
+    .actualidad__items {
+        flex-flow: column;
+        max-width: 500px;
+        margin-right: 20px;
+    }
+    .actualidad__item {
+        cursor: pointer;
+        padding: 24px 10px 24px 30px;
+        border-bottom: solid 1px #e9e9e9;
+    }
+    .actualidad__item img {
+        height: 136px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .actualidad__item__text {
+        margin: 0px 30px;
+    }
+    .actualidad__item__text h3 {
+        font-size: 16px;
+    }
+    .actualidad__item__text p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .actualidad--active {
+        border-left: solid 15px #ff9a7e;
+    }
+    #actualidadLink {
+        color: #ff671b;
+        font-size: 14px;
+    }
+    img#actualidadImage {
+        height: 480px;
+    }
+    div#actualidadDate {
+        color: #949494;
+        font-size: 12px;
+    }
+    h3#actualidadTitle {
+        font-size: 34px;
+        line-height: 1;
+    }
+    @media (max-width: 985px) {
+        .actualidad__content {
+            display: none;
+        }
+        .actualidad__item__text .btn_evento {
+            display: block;
+        }
+        .actualidad__wrapper,
+        .actualidad__item {
+            flex-flow: column;
+        }
+        .actualidad--active {
+            border-left: none;
+        }
+        .actualidad__item__text {
+            margin: 20px 0px;
+        }
+        img#actualidadImage {
+            height: auto;
+        }
+        section.actualidad h2 {
+            font-size: 26px;
+        }
+        .actualidad__item img {
+            height: auto;
+        }
+        .btn_evento {
+            margin-top: 10px;
+        }
+        .actualidad__item {
+            padding: 0px 10px;
+        }
+    }

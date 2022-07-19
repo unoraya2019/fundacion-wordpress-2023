@@ -1,0 +1,18 @@
+    .videos {
+        text-align: center;
+    }
+    .videos h2 {
+        color: rgb(255, 103, 27);
+        font-size: 26px;
+    }
+    .videos h4 {
+        font-size: 16px;
+    }
+    .videos__content {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .videos__content iframe {
+        max-width: 540px;
+        margin: 15px;
+    }

@@ -1,0 +1,19 @@
+    .article h1 {
+        font-size: 48px;
+        color: #2f425b;
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+        line-height: 1;
+    }
+    .article img {
+        margin-bottom: 20px;
+    }
+    .article p {
+        font-size: 18px;
+        color: #111820;
+    }
+    .article .description a {
+        color: #f60;
+        font-weight: 700;
+    }

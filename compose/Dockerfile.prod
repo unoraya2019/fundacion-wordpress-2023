@@ -1,0 +1,5 @@
+FROM wordpress:6.0-php7.4-apache
+
+COPY --chown=www-data:www-data ./src/wp-content /var/www/html/wp-content
+COPY --chown=www-data:www-data ./src/assets/css /var/www/html/css
+COPY --chown=www-data:www-data ./src/assets/js /var/www/html/js

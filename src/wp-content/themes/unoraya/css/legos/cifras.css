@@ -1,0 +1,44 @@
+    .cifras {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .cifras__content {
+        justify-content: space-around;
+        flex-flow: row wrap;
+    }
+    .cifras__item {
+        align-items: center;
+        margin-bottom: 30px;
+        max-width: 400px;
+    }
+    .cifras__item img {
+        margin-right: 30px;
+    }
+    .cifras__item h2 {
+        font-weight: 700;
+        font-size: 50px;
+        color: #ff671b;
+        line-height: 52px;
+        margin-bottom: 7px;
+    }
+    .cifras__item h4 {
+        font-size: 18px;
+        color: #111820;
+        line-height: 30px;
+    }
+    .cifras__texto {
+        margin-right: 40px;
+    }
+    
+    @media (max-width: 575px) {
+        .cifras__content {
+            flex-flow: column;
+        }
+        .cifras__item {
+            flex-flow: column;
+            text-align: center;
+        }
+        .cifras__item img, .cifras__texto {
+            margin-right: 0px;
+        }
+    }

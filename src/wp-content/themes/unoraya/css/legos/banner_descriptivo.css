@@ -1,0 +1,58 @@
+    .banner_descriptivo h1 {
+        font-size: 50px;
+        color: #2f425b;
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+    .banner_descriptivo h2 {
+        font-size: 32px;
+        color: #ff671b;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 2px;
+    }
+    .sec1-description {
+        position: relative;
+        z-index: 1;
+        padding: 50px;
+        width: 60%;
+        background: linear-gradient(90deg,#dadada,#dadada 50%,#fff 75%,hsla(0,0%,100%,0));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dadada",endColorstr="#00dadada",GradientType=1);
+    }
+    .banner_descriptivo h3 {
+        font-size: 40px;
+        color: #2f425b;
+        line-height: 64px;
+        margin-bottom: 25px;
+    }
+    .sec1-boxes {
+        margin-top: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+    .sec1-boxes .img-fluid {
+        position: absolute;
+        z-index: 0;
+        right: 0;
+        top: 0;
+    }
+    @media (max-width: 767px) {
+        .banner_descriptivo h1 {
+            font-size: 40px;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        .banner_descriptivo h2 {
+            font-size: 22px;
+            line-height: 1;
+        }
+        .sec1-boxes .img-fluid {
+            position: relative;
+        }
+        .sec1-boxes .sec1-description {
+            width: 100%;
+            background: #f7f7f7;
+            padding: 25px;
+        }
+    }
