@@ -1,0 +1,43 @@
+{
+    "environment": {
+        "dockerImage": "wordpress-alpine",
+        "region": "us-east-1",
+        "imageTag": "latest"
+    },
+    "dev": {
+        "cluster": "nombre-cluster-dev-ms-java-fargate",
+        "serviceName": "nombre-service-name-dev-java-fargate",
+        "securityGroups": "sg-0f1ed0e639ef19fb0",
+        "subnets": "subnet-0c03389b66f28e762,subnet-078783bec2d4ebce9",
+        "assignPublicIp": "ENABLED",
+        "taskDefinition": "nombre-task-definition-tsk",
+        "launchType": "FARGATE",
+        "taskCount": "2",
+        "repositoryUrl": "https://290296201161.dkr.ecr.us-east-1.amazonaws.com",
+        "repositoryImage": "290296201161.dkr.ecr.us-east-1.amazonaws.com/imagen-fargate"
+    },
+    "stage": {
+        "cluster": "nombre-cluster-dev-ms-java-fargate",
+        "serviceName": "nombre-service-name-dev-java-fargate",
+        "securityGroups": "sg-0f1ed0e639ef19fb0",
+        "subnets": "subnet-0c03389b66f28e762,subnet-078783bec2d4ebce9",
+        "assignPublicIp": "ENABLED",
+        "taskDefinition": "nombre-task-definition-tsk",
+        "launchType": "FARGATE",
+        "taskCount": "2",
+        "repositoryUrl": "https://290296201161.dkr.ecr.us-east-1.amazonaws.com",
+        "repositoryImage": "290296201161.dkr.ecr.us-east-1.amazonaws.com/imagen-fargate"
+    },
+    "prod": {
+        "cluster": "nombre-cluster-dev-ms-java-fargate",
+        "serviceName": "nombre-service-name-dev-java-fargate",
+        "securityGroups": "sg-0f1ed0e639ef19fb0",
+        "subnets": "subnet-0c03389b66f28e762,subnet-078783bec2d4ebce9",
+        "assignPublicIp": "ENABLED",
+        "taskDefinition": "nombre-task-definition-tsk",
+        "launchType": "FARGATE",
+        "taskCount": "2",
+        "repositoryUrl": "https://290296201161.dkr.ecr.us-east-1.amazonaws.com",
+        "repositoryImage": "290296201161.dkr.ecr.us-east-1.amazonaws.com/imagen-fargate"
+    }
+}
