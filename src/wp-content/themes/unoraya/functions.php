@@ -62,7 +62,7 @@ function add_header_seguridad() {
     header( 'X-Frame-Options: SAMEORIGIN' );
     header( 'X-XSS-Protection: 1;mode=block' );
     header( 'Strict-Transport-Security: max-age=31536000; includeSubDomains' );
-    header( "Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: www.gstatic.com *.gstatic.com analytics.google.com fonts.googleapis.com www.googletagmanager.com www.google-analytics.com tags.bkrtx.com stats.g.doubleclick.net stags.bluekai.com www.youtube.com googleads.g.doubleclick.net www-embed-player.js https://cdn.jsdelivr.net https://img03.en25.com https://s1585023691.t.eloqua.com https://tags.bluekai.co");
+    header( "Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: www.gstatic.com *.gstatic.com analytics.google.com fonts.googleapis.com www.googletagmanager.com www.google-analytics.com tags.bkrtx.com stats.g.doubleclick.net stags.bluekai.com www.youtube.com googleads.g.doubleclick.net www-embed-player.js *.cloudfront.net https://cdn.jsdelivr.net https://img03.en25.com https://s1585023691.t.eloqua.com https://tags.bluekai.co");
     header( 'Referrer-Policy: strict-origin' );
     header( 'Access-Control-Allow-Methods: POST, GET, OPTIONS' );
     header( "Feature-Policy: microphone 'none'; geolocation 'none'" );
