@@ -29,15 +29,15 @@
         "repositoryImage": "290296201161.dkr.ecr.us-east-1.amazonaws.com/imagen-fargate"
     },
     "prod": {
-        "cluster": "nombre-cluster-dev-ms-java-fargate",
-        "serviceName": "nombre-service-name-dev-java-fargate",
-        "securityGroups": "sg-0f1ed0e639ef19fb0",
-        "subnets": "subnet-0c03389b66f28e762,subnet-078783bec2d4ebce9",
+        "cluster": "cluster-prod-backend-fundacion-davivienda",
+        "serviceName": "wordpress-prod-backend-fundacion-davivienda",
+        "securityGroups": "sg-002f481d8b2d65457",
+        "subnets": "subnet-00d08370923f6812d,subnet-09ef6171c6500d2db",
         "assignPublicIp": "ENABLED",
-        "taskDefinition": "nombre-task-definition-tsk",
+        "taskDefinition": "wordpress-prod-backend-fundacion-davivienda",
         "launchType": "FARGATE",
         "taskCount": "2",
-        "repositoryUrl": "https://290296201161.dkr.ecr.us-east-1.amazonaws.com",
-        "repositoryImage": "290296201161.dkr.ecr.us-east-1.amazonaws.com/imagen-fargate"
+        "repositoryUrl": "735065655809.dkr.ecr.us-east-1.amazonaws.com",
+        "repositoryImage": "735065655809.dkr.ecr.us-east-1.amazonaws.com/fundacion-davivienda-prod-fundacion-davivienda"
     }
 }
