@@ -2,7 +2,8 @@
     "environment": {
         "dockerImage": "wordpress-alpine",
         "region": "us-east-1",
-        "imageTag": "latest"
+        "imageTag": "latest",
+        "pathDockerfile": "./compose/Dockerfile.prod"
     },
     "dev": {
         "cluster": "nombre-cluster-dev-ms-java-fargate",
