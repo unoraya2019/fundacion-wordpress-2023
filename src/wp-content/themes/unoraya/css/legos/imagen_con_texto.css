@@ -1,0 +1,19 @@
+    .imagen_con_texto .object-fit-cover {
+        max-height: 500px;
+    }
+    .imagen_con_texto h2 {
+        color: #2f425b;
+        font-size: 40px;
+    }
+    .imagen_con_texto button.btn.btn-primary {
+        padding: 10px 25px;
+        background-color: #ff671b;
+        text-align: center;
+        border: none;
+        border-radius: 0;
+    }
+    @media (max-width: 600px) {
+        .imagen_con_texto h2 {
+            font-size: 30px;
+        }
+    }

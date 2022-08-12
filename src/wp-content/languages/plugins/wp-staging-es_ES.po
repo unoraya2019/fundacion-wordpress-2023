@@ -1,0 +1,693 @@
+# Translation of Plugins - WP STAGING &#8211; Backup Duplicator &amp; Migration - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP STAGING &#8211; Backup Duplicator &amp; Migration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-31 03:34:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP STAGING &#8211; Backup Duplicator &amp; Migration - Stable (latest release)\n"
+
+#: Backend/views/backup/listing-single-backup.php:67
+msgid "Edit"
+msgstr "Editar"
+
+#: Backend/views/backup/listing-single-backup.php:102
+msgid "Notes:"
+msgstr "Notas:"
+
+#: Backend/views/backup/listing-single-backup.php:92
+msgid "Created on:"
+msgstr "Creado el:"
+
+#: Backend/views/notices/rating.php:68
+msgid "Your WP STAGING Team"
+msgstr "Tu equipo WP STAGING"
+
+#: Backend/views/clone/ajax/single-overview.php:103
+msgid "Updated: <span>%s</span>"
+msgstr "Actualizado: <span>%s</span>"
+
+#. Plugin Name of the plugin
+#: Backend/views/notices/analytics-consent-refused.php:2
+#: runtimeRequirements.php:75 wp-staging.php:67
+msgid "WP STAGING"
+msgstr "WP STAGING"
+
+#. Author of the plugin
+msgid "WP-STAGING"
+msgstr "WP-STAGING"
+
+#: Frontend/Frontend.php:74
+msgid "Access Denied"
+msgstr "Acceso denegado"
+
+#: Backend/views/notices/wp-version-compatible-message.php:4
+msgid "<strong>This version of WP STAGING has not been tested with WordPress %2$s.</strong><br/><br/>WP STAGING has an enterprise-level quality control that performs a compatibility audit on every new WordPress release.<br/>We prioritize testing the Pro version of the plugin first, which receives the compatibility audit earlier than the Free version. If you are in a rush, upgrade to Pro today to get the latest compatible version of WP STAGING or wait a few days until we update the free version.<p><a href=\"%1$s\" target=\"_blank\"><strong>Get the Latest Pro Version Now</strong></a>."
+msgstr "<strong>Esta versión de WP STAGING no ha sido probada con WordPress %2$s.</strong><br/><br/>WP STAGING tiene un control de calidad de nivel empresarial que realiza una auditoría de compatibilidad en cada nueva versión de WordPress.<br/>Primero, priorizamos la prueba de la versión Pro del plugin, que recibe la auditoría de compatibilidad antes que la versión gratuita. Si tienes prisa, actualiza hoy a la versión Pro para obtener la última versión compatible de WP STAGING o espera unos días hsta que actualicemos la versión gratuita.<p><a href=\"%1$s\" target=\"_blank\"><strong>Obtén ahora la última versión Pro</strong></a>."
+
+#: Backend/views/_main/report-issue.php:16
+msgid "Optional: Submit the <a href=\"%s\" target=\"_blank\">System Log</a> and your WordPress debug log. This helps us to resolve your technical issues."
+msgstr "Opcional: envía el <a href=\"%s\" target=\"_blank\">registro del sistema</a> y tu registro de depuración de WordPress. Esto nos ayuda a resolver tus problemas técnicos."
+
+#: Backend/views/clone/ajax/start.php:56
+msgid "Please read this first:"
+msgstr "Por favor, primero lee esto:"
+
+#: Backend/views/clone/ajax/start.php:49
+msgid "BACK"
+msgstr "VOLVER"
+
+#: Backend/views/clone/ajax/start.php:52
+msgid "Open Staging Site"
+msgstr "Abrir sitio de pruebas"
+
+#: Backend/views/clone/ajax/external-database.php:74
+msgid "Test Database Connection"
+msgstr "Prueba de conexión de la base de datos"
+
+#: Backend/views/notices/low-memory-limit.php:2
+msgid "It's recommended to increase the memory limit to 256M or more! If cloning/pushing <strong>fails</strong> <a href=\"%s\" target=\"_blank\">increase the memory limit</a>."
+msgstr "¡Se recomienda aumentar el límite de memoria a 256M o más! Si la clonación/inserción <strong>falla</strong> <a href=\"%s\" target=\"_blank\">aumenta el límite de memoria</a>."
+
+#: Backend/views/notices/beta.php:16
+msgid "I understand! (Do not show this again)"
+msgstr "¡Entiendo! (No muestres esto de nuevo)"
+
+#: Backend/views/notices/beta.php:10
+msgid "A good plugin for an entire WordPress backup is the free one"
+msgstr "Un buen plugin para una copia de seguridad completa de WordPress es el gratuito"
+
+#: Backend/views/notices/beta.php:4
+msgid ""
+"WP Staging is well tested and we did a lot to catch every possible error but\n"
+"        we can not handle all possible combinations of server, plugins and themes. <br>\n"
+"        <strong>BEFORE</strong> you create your first staging site it´s highly recommended\n"
+"        <strong>to make a full backup of your website</strong> first!"
+msgstr ""
+"WP Staging está suficientemente probado e hicimos mucho para detectar todos los errores posibles, pero\n"
+"         no podemos manejar todas las combinaciones posibles de servidor, plugins y temas. <br>\n"
+"         <strong>ANTES</strong> de crear tu primer sitio de staging, es muy recomendable\n"
+"         ¡<strong>hacer una copia de seguridad completa de tu web</strong> primero!"
+
+#: Backend/views/_main/footer.php:32
+msgid "Follow @wpstg"
+msgstr "Sigue a @wpstg"
+
+#: Backend/views/_main/footer.php:13
+msgid "Page not found – Error 404 after Pushing"
+msgstr "Página no encontrada - Error 404 después de publicar"
+
+#: Backend/views/_main/footer.php:11
+msgid "Skip WooCommerce Orders and Products"
+msgstr "Omitir pedidos y productos de WooCommerce"
+
+#: Backend/views/_main/footer.php:10
+msgid "CSS & layout broken after push"
+msgstr "CSS y diseño roto después de empujar"
+
+#: Backend/views/_main/footer.php:9
+msgid "Staging site returns blank white page"
+msgstr "El sitio de staging devuelve una página en blanco"
+
+#: Backend/views/_main/footer.php:8
+msgid "Staging site redirects to production site"
+msgstr "El sitio de staging redirige al sitio de producción"
+
+#: Backend/views/_main/footer.php:7
+msgid "Can not login to staging site"
+msgstr "No se puede acceder al sitio de staging"
+
+#: Backend/views/settings/tabs/general.php:355
+msgid "Select the user role you want to give access to the staging site. You can select multiple roles by holding CTRL or ⌘ Cmd key while clicking. <strong>Change this option on the staging site if you want to change the authentication behavior there.</strong>"
+msgstr "Selecciona el perfil de usuario al que quieres otorgar acceso al sitio de pruebas. Puedes seleccionar múltiples perfiles manteniendo presionada la tecla CTRL o ⌘ Cmd mientras haces clic. <strong>Cambia esta opción en el sitio de pruebas si quieres cambiar el comportamiento de identificación allí.</strong>"
+
+#: Backend/views/_main/footer.php:12
+msgid "Can not update WP STAGING plugin"
+msgstr "No se puede actualizar el plugin WP STAGING"
+
+#: Backend/views/settings/tabs/general.php:245
+msgid "Keep permalinks original setting activated and do not disable permalinks on staging site. <br/>Read more: <a href=\"%1$s\" target=\"_blank\">Permalink Settings</a> "
+msgstr "Mantén activados los ajustes originales de enlaces permanentes y no desactives los enlaces permanentes en el sitio de staging. <br/> Leer más: <a href=\"%1$s\" target=\"_blank\">Ajustes de enlaces permanentes</a>"
+
+#: Backend/Modules/Views/Forms/Settings.php:279
+msgid "Allow access from all visitors"
+msgstr "Permitir el acceso de todos los visitantes"
+
+#: Backend/Modules/Views/Forms/Settings.php:247
+msgid "Access Permissions"
+msgstr "Permisos de acceso"
+
+#: Backend/Modules/Views/Forms/Settings.php:239
+msgid "Check Directory Size"
+msgstr "Comprobar tamaño del directorio"
+
+#: Backend/Modules/Views/Forms/Settings.php:228
+msgid "Remove Data on Uninstall?"
+msgstr "¿Eliminar los datos al desinstalar?"
+
+#: Backend/Modules/Views/Forms/Settings.php:217
+msgid "Debug Mode"
+msgstr "Modo de depuración"
+
+#: Backend/Modules/Views/Forms/Settings.php:204
+msgid "Keep Permalinks"
+msgstr "Mantener enlaces permanentes"
+
+#: Backend/Modules/Views/Forms/Settings.php:192
+msgid "Disable admin authorization"
+msgstr "Desactivar la autorización del administrador"
+
+#: Backend/Modules/Views/Forms/Settings.php:179
+msgid "Optimizer"
+msgstr "Optimizador"
+
+#: Backend/Modules/Views/Forms/Settings.php:167
+msgid "Delay Between Requests"
+msgstr "Retraso entre solicitudes"
+
+#: Backend/Modules/Views/Forms/Settings.php:151
+msgid "CPU Load Priority"
+msgstr "Prioridad de carga de la CPU"
+
+#: Backend/Modules/Views/Forms/Settings.php:144
+msgid "Low (slow)"
+msgstr "Bajo (lento)"
+
+#: Backend/Modules/Views/Forms/Settings.php:143
+msgid "Medium (average)"
+msgstr "Medio (promedio)"
+
+#: Backend/Modules/Views/Forms/Settings.php:142
+msgid "High (fast)"
+msgstr "Alto (rápido)"
+
+#: Backend/Modules/Views/Forms/Settings.php:134
+msgid "File Copy Batch Size"
+msgstr "Tamaño de lote de copia de archivo"
+
+#: Backend/Modules/Views/Forms/Settings.php:118
+msgid "Maximum File Size (MB)"
+msgstr "Tamaño máximo de archivo (MB)"
+
+#: Backend/Modules/Views/Forms/Settings.php:102
+msgid "File Copy Limit"
+msgstr "Límite de copia de archivo"
+
+#: Backend/Modules/Views/Forms/Settings.php:82
+msgid "DB Search & Replace Limit"
+msgstr "Límite de búsqueda y reemplazo de bases de datos"
+
+#: Backend/Administrator.php:311
+msgid "WP Staging "
+msgstr "WP Staging "
+
+#: Backend/Modules/Views/Forms/Settings.php:67
+msgid "DB Copy Query Limit"
+msgstr "Límite de consultas de copia de la base de datos"
+
+#: Backend/Modules/Jobs/ProcessLock.php:53
+#: Backend/views/clone/ajax/process-lock.php:10
+msgid "Stop other process"
+msgstr "Detener otro proceso"
+
+#: Backend/views/feedback/deactivate-feedback.php:34
+msgid "Don't deactivate"
+msgstr "No desactivar"
+
+#: Backend/views/feedback/deactivate-feedback.php:33
+msgid "Only Deactivate"
+msgstr "Solo desactivar"
+
+#: Backend/views/feedback/deactivate-feedback.php:9
+msgid "Switched to another plugin/staging solution"
+msgstr "Se cambió a otra plugin/solución de staging"
+
+#: Backend/views/feedback/deactivate-feedback.php:3
+msgid "Only temporary"
+msgstr "Solo temporalmente"
+
+#: Backend/views/feedback/deactivate-feedback.php:7
+msgid "Technical Issue"
+msgstr "Problema técnico"
+
+#: Backend/views/feedback/deactivate-feedback.php:8
+msgid "Can we help? Please describe your problem"
+msgstr "¿Podemos ayudar? Por favor describe tu problema"
+
+#: Backend/views/feedback/deactivate-feedback.php:5
+msgid "Miss a feature"
+msgstr "Falta una característica"
+
+#: Backend/views/feedback/deactivate-feedback.php:32
+msgid "Submit & Deactivate"
+msgstr "Enviar y desactivar"
+
+#: Backend/views/feedback/deactivate-feedback.php:21
+msgid "Please let us know why you are deactivating:"
+msgstr "Haznos saber por qué lo estás desactivando:"
+
+#: Backend/views/feedback/deactivate-feedback.php:12
+msgid "Please specify, if possible"
+msgstr "Por favor especifica, si es posible"
+
+#: Backend/views/feedback/deactivate-feedback.php:11
+msgid "Other reason"
+msgstr "Otra razón"
+
+#: Frontend/LoginForm.php:173
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: Backend/views/clone/ajax/scan.php:133
+msgid "Check required disk space"
+msgstr "Verifica el espacioobligatorio en el disco"
+
+#: Backend/views/clone/ajax/single-overview.php:44
+msgid "Open the staging site in a new tab"
+msgstr "Abre el sitio de staging en una nueva pestaña"
+
+#: Backend/views/clone/ajax/delete-confirmation.php:99
+msgid "Selected folder and all of its subfolders and files will be deleted. <br/>Unselect it if you want to keep the staging site file data."
+msgstr "La carpeta seleccionada y todas sus subcarpetas y archivos se eliminarán. <br/>Anula la selección si quieres conservar los datos del archivo del sitio de staging."
+
+#: Backend/views/clone/ajax/delete-confirmation.php:56
+msgid "Database tables to delete"
+msgstr "Tablas de la base de datos a borrar"
+
+#: Backend/views/clone/ajax/delete-confirmation.php:66
+#: Backend/views/clone/ajax/delete-confirmation.php:84
+#: Backend/views/selections/database-tables.php:21
+#: Backend/views/selections/database-tables.php:40
+#: Backend/views/selections/files.php:15
+msgid "Unselect All"
+msgstr "Anular selección de todo"
+
+#: Backend/views/clone/ajax/scan.php:50
+msgid "Database Tables"
+msgstr "Tablas de la base de datos"
+
+#: Backend/views/selections/database-tables.php:44
+msgid "You can select multiple tables. Press left mouse button & move or press STRG+Left mouse button. (Apple: ⌘+Left Mouse Button)"
+msgstr "Puedes seleccionar varias tablas pulsando el botón izquierdo del ratón y moviéndolo o pulsando STRG + botón izquierdo del ratón. (Apple: ⌘ + botón izquierdo del ratón)"
+
+#: Backend/views/_main/footer.php:19
+msgid "Open a <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">support ticket</a> and get in contact with us."
+msgstr "Abre un <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">tique de soporte</a> y ponte en contacto con nosotros."
+
+#: Backend/views/clone/ajax/scan.php:28
+msgid "<br>Probably not enough free disk space to create a staging site. <br> You can continue but its likely that the copying process will fail."
+msgstr "<br>Probablemente no hay suficiente espacio libre en el disco para crear un sitio de pruebas.<br>Puedes continuar pero es posible que el proceso de copia falle."
+
+#: Backend/views/tools/tabs/import_export.php:39
+msgid "Import the WP-Staging settings from a .json file. This file can be obtained by exporting the settings on another site using the form above."
+msgstr "Importa los ajustes de WP-Staging desde un archivo .json. Este archivo se puede obtener exportando los ajustes en otro sitio usando el formulario de arriba."
+
+#: Backend/views/tools/tabs/import_export.php:11
+msgid "Export the WP-Staging settings for this site as a .json file. This allows you to easily import the configuration into another site."
+msgstr "Exporta los ajustes de WP-Staging para este sitio en un archivo .json. Esto te permite importar fácilmente la configuración en otro sitio."
+
+#: Backend/views/selections/files.php:88
+msgid "Enter one folder path per line.<br>Folders must be relative to the path: "
+msgstr "Introduce una ruta de carpeta por línea.<br>Las carpetas deben ser relativas a la ruta:"
+
+#: Backend/views/settings/tabs/general.php:198
+msgid "If your server uses rate limits it blocks requests and WP Staging can be interrupted. You can resolve that by adding one or more seconds of delay between the processing requests. "
+msgstr "Si tu servidor usa límite de tasas bloqueará las peticiones y el proceso de WP Staging puede ser interrumpido. Puedes arreglarlo añadiendo uno o más segundos de retardo entre las solicitudes de procesamiento."
+
+#: Backend/views/clone/ajax/scan.php:70
+msgid "Advanced Settings "
+msgstr "Ajustes avanzados"
+
+#: Backend/views/notices/wrong-scheme.php:7
+msgid "Otherwise your staging site will not be reachable after creation."
+msgstr "De lo contrario, tu sitio de staging no será accesible después de la creación."
+
+#: Backend/views/clone/ajax/start.php:27
+msgid "Resume"
+msgstr "Reanudar"
+
+#: Backend/views/welcome/welcome.php:19
+msgid "Comes with our 30-day money back guarantee * You need to give us chance to resolve your issue first."
+msgstr "Viene con nuestra garantía de devolución de dinero de 30 días * Debes darnos la oportunidad de resolver tu problema primero."
+
+#: Backend/views/notices/wrong-scheme.php:5
+msgid "Go to <a href=\"%s\" target=\"_blank\">Settings > General</a> and make sure that WordPress Address (URL) and Site Address (URL) both start wth either http or https scheme."
+msgstr "Ve a <a href=\"%s\" target=\"_blank\">Ajustes > Generales</a> y asegúrate de que la dirección de WordPress (URL) y la dirección del sitio (URL) empiecen con el esquema http o https."
+
+#: Backend/views/_main/report-issue.php:30
+msgid "Submit"
+msgstr "Enviar"
+
+#: Backend/Administrator.php:352
+msgid "Tools"
+msgstr "Herramientas"
+
+#: Backend/Administrator.php:363
+msgid "Get WP Staging Pro"
+msgstr "Obtener WP Staging Pro"
+
+#: Backend/Administrator.php:375
+msgid "License"
+msgstr "Licencia"
+
+#: Backend/Administrator.php:390
+msgid "General"
+msgstr "General"
+
+#: Backend/Administrator.php:444
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: Backend/Administrator.php:445
+msgid "System Info"
+msgstr "Información del sistema"
+
+#: Backend/Administrator.php:497
+msgid "Please upload a file to import"
+msgstr "Por favor, sube un archivo para importar"
+
+#: Backend/Modules/Jobs/Directories.php:329
+msgid "Unable to open %s with mode %s"
+msgstr "No ha sido posible abrir %s en modo %s"
+
+#: Backend/Modules/Jobs/Directories.php:348
+msgid "Unable to write to: %s"
+msgstr "No ha sido posible escribir: %s"
+
+#: Backend/Modules/Jobs/Directories.php:351
+msgid "Out of disk space."
+msgstr "Sin espacio en disco."
+
+#: Backend/Pluginmeta/Pluginmeta.php:85
+msgid "Start Now"
+msgstr "Empezar ahora"
+
+#: Backend/views/_main/footer.php:25
+msgid "Tweet #wpstaging"
+msgstr "Tuit #wpstaging"
+
+#: Backend/views/backup/modal/progress.php:1
+#: Backend/views/clone/ajax/delete-confirmation.php:114
+#: Backend/views/clone/ajax/start.php:23
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: Backend/views/clone/ajax/delete-confirmation.php:21
+msgid "Staging Site Name:"
+msgstr "Nombre del sitio en staging"
+
+#: Backend/views/clone/ajax/scan.php:59
+msgid "Files"
+msgstr "Archivos"
+
+#: Backend/views/selections/files.php:81
+msgid "Extra directories to copy"
+msgstr "Directorios extra a copiar"
+
+#: Backend/views/selections/files.php:103
+msgid "All files will be copied to: "
+msgstr "Todos los archivos se copiarán a:"
+
+#: Backend/views/clone/ajax/process-lock.php:6
+#: Backend/views/clone/ajax/scan.php:117 Backend/views/clone/ajax/update.php:24
+msgid "Back"
+msgstr "Volver"
+
+#: Backend/views/clone/ajax/scan.php:125
+msgid "Update Clone"
+msgstr "Actualizar clon"
+
+#: Backend/views/clone/ajax/scan.php:121
+msgid "Start Cloning"
+msgstr "Empezar clonación"
+
+#: Backend/views/clone/ajax/single-overview.php:12
+msgid "Create new staging site"
+msgstr "Crear nuevo sitio de staging"
+
+#: Backend/views/clone/ajax/single-overview.php:20
+msgid "Your Staging Sites:"
+msgstr "Tus sitios en staging"
+
+#: Backend/views/clone/ajax/single-overview.php:45
+msgid "Open"
+msgstr "Abrir"
+
+#: Backend/views/clone/ajax/single-overview.php:48
+msgid "Update"
+msgstr "Actualizar "
+
+#: Backend/views/backup/listing-single-backup.php:73
+#: Backend/views/clone/ajax/delete-confirmation.php:118
+#: Backend/views/clone/ajax/single-overview.php:54
+#: Backend/views/tools/tabs/system_info.php:13
+#: Backend/views/tools/tabs/system_info.php:15
+msgid "Delete"
+msgstr "Borrar"
+
+#: Backend/views/clone/ajax/start.php:8 Backend/views/clone/ajax/update.php:9
+msgid "Processing, please wait..."
+msgstr "Procesando, por favor espera..."
+
+#: Backend/views/clone/ajax/start.php:31 Backend/views/clone/ajax/update.php:38
+msgid "Display working log"
+msgstr "Mostrar registro de trabajo"
+
+#: Backend/views/clone/ajax/update.php:32
+msgid "Cancel Update"
+msgstr "Cancelar actualización"
+
+#: Backend/views/clone/single-site/index.php:8
+msgid "Scanning"
+msgstr "Explorando"
+
+#: Backend/views/clone/single-site/index.php:12
+msgid "Cloning"
+msgstr "Clonando"
+
+#: Backend/views/backup/listing.php:66
+#: Backend/views/clone/single-site/index.php:21
+msgid "Report Issue"
+msgstr "Informar de un problema o conflicto"
+
+#: Backend/views/tools/tabs/import_export.php:5
+msgid "Export Settings"
+msgstr "Exportar ajustes"
+
+#: Backend/views/tools/tabs/import_export.php:22
+msgid "Export"
+msgstr "Exportar"
+
+#: Backend/views/tools/tabs/import_export.php:33
+msgid "Import Settings"
+msgstr "Importar ajustes"
+
+#: Backend/views/tools/tabs/import_export.php:52
+msgid "Import"
+msgstr "Importar"
+
+#: Core/Cron/Cron.php:40
+msgid "Once Weekly"
+msgstr "Una vez a la semana"
+
+#: Core/Cron/Cron.php:45
+msgid "Once a month"
+msgstr "Una vez al mes"
+
+#: Framework/Mails/Report/Report.php:58
+msgid "Please accept our privacy policy."
+msgstr "Por favor, acepta nuestra política de privacidad."
+
+#: Frontend/Frontend.php:77
+msgid "Username or Email Address"
+msgstr "Nombre de usuario o dirección de correo electrónico"
+
+#: Frontend/LoginForm.php:174
+msgid "Password"
+msgstr "Contraseña"
+
+#: Frontend/LoginForm.php:175
+msgid "Remember Me"
+msgstr "Recuérdame"
+
+#: Frontend/LoginForm.php:176
+msgid "Log In"
+msgstr "Acceder"
+
+#. Description of the plugin
+msgid "Create a staging clone site for testing & developing"
+msgstr "Crea un clon provisional del sitio para probar y desarrollar"
+
+#. Author URI of the plugin
+msgid "https://wp-staging.com"
+msgstr "https://wp-staging.com"
+
+#: Backend/views/settings/tabs/general.php:290
+msgid "The Optimizer is a mu plugin which disables all other plugins during WP Staging processing. Usually this makes the cloning process more reliable. If you experience issues, disable the Optimizer."
+msgstr "El optimizador es un plugin mu que desactiva todos los demás plugins durante el procesamiento de WP Staging. Por lo general, esto hace que el proceso de clonación sea más confiable. Si tienes problemas, desactiva el optimizador."
+
+#: Backend/views/settings/tabs/general.php:102
+msgid "<strong>Important:</strong> If CPU Load Priority is <strong>Low</strong> set a file copy limit value of 50 or higher! Otherwise file copying process takes a lot of time."
+msgstr "<strong> Importante:</strong> si la prioridad de carga de la CPU es <strong>baja</strong>, configura un valor límite de copia de archivo de 50 o más. De lo contrario, el proceso de copia de archivos lleva mucho tiempo."
+
+#: Backend/views/_main/report-issue.php:24
+msgid "By submitting, I accept the <a href=\"https://wp-staging.com/privacy-policy/\" target=\"_blank\">Privacy Policy</a> and consent that my email will be stored and processed for the purposes of proving support."
+msgstr "Al enviar, acepto la <a href=\"https://wp-staging.com/privacy-policy/\" target=\"_blank\"> Política de privacidad</a> y doy mi consentimiento para que mi correo electrónico se almacene y procese para propósitos de obtener soporte."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wp-staging"
+msgstr "https://es.wordpress.org/plugins/wp-staging"
+
+#: Framework/Mails/Report/Report.php:54
+msgid "Please enter your issue."
+msgstr "Por favor, introduce tu problema."
+
+#: Framework/Mails/Report/Report.php:50
+msgid "Email address is not valid."
+msgstr "La dirección de correo electrónico no es válida."
+
+#: Backend/Administrator.php:374
+msgid "WP Staging License"
+msgstr "Licencia de WP Staging"
+
+#: Backend/Administrator.php:362
+msgid "WP Staging Welcome"
+msgstr "Bienvenido/a a WP Staging"
+
+#: Backend/views/settings/tabs/general.php:331
+msgid ""
+"Check this box if you like WP Staging to check sizes of each directory on scanning process.\n"
+"                                        <br>\n"
+"                                        Warning this may cause timeout problems in big directory / file structures."
+msgstr ""
+"Marca esta casilla si quieres que WP Staging compruebe los tamaños de cada directorio en el proceso de exploración.\n"
+"                                                 <br>\n"
+"                                                 Advertencia, esto puede causar problemas de tiempo de espera en grandes directorios / estructuras de archivos."
+
+#: Backend/views/settings/tabs/general.php:310
+msgid ""
+"Check this box if you like WP Staging to completely remove all of its data when the plugin is deleted.\n"
+"                                        This will not remove staging sites files or database tables."
+msgstr ""
+"Marca esta casilla si quieres que WP Staging elimine por completo todos sus datos cuando se borre el plugin.\n"
+"                                                 Esto no eliminará los archivos de los sitios de desarrollo o las tablas de las bases de datos."
+
+#: Backend/views/settings/tabs/general.php:147
+msgid ""
+"Buffer size for the file copy process in megabyte.\n"
+"                                        The higher the value the faster large files are copied.\n"
+"                                        To find out the highest possible values try a high one and lower it until\n"
+"                                        you get no errors during file copy process. Usually this value correlates directly\n"
+"                                        with the memory consumption of php so make sure that\n"
+"                                        it does not exceed any php.ini max_memory limits."
+msgstr ""
+"Tamaño del búfer para el proceso de copia de archivos en megabytes.\n"
+"                                                Cuanto mayor sea el valor, más rápido se copian los archivos grandes.\n"
+"                                                 Para descubrir los valores más altos posibles, prueba uno alto y bájalo hasta\n"
+"                                                 que no obtengas errores durante el proceso de copia de archivos. Por lo general, este valor se correlaciona directamente\n"
+"                                                 con el consumo de memoria de PHP, así que, asegúrate de que\n"
+"                                                 no supera los límites de `max_memory`en el archivo «php.ini»."
+
+#: Backend/views/settings/tabs/general.php:125
+msgid ""
+"Maximum size of the files which are allowed to copy. All files larger than this value will be skipped.                                              \n"
+"                                        Note: Increase this option only if you have a good reason. Files larger than a few megabytes are in 99% of all cases log and backup files which are not needed on a staging site."
+msgstr ""
+"Tamaño máximo de los archivos que pueden copiarse. Se omitirán todos los archivos mayores que este valor.\n"
+"                                                 Nota: Aumenta esta opción solo si tienes una buena razón. Los archivos de más de unos pocos megabytes son en el 99% de todos los casos archivos de registro y de copia de seguridad, que no son necesarios en un sitio de desarrollo."
+
+#: Backend/views/settings/tabs/general.php:92
+msgid ""
+"Number of files to copy that will be copied within one ajax request.\n"
+"                                        The higher the value the faster the file copy process.\n"
+"                                        To find out the highest possible values try a high value like 500 or more. If you get timeout issues, lower it\n"
+"                                        until you get no more errors during copying process."
+msgstr ""
+"Número de archivos para copiar que se copiarán dentro de una solicitud Ajax.\n"
+"                                                 Cuanto mayor sea el valor, más rápido será el proceso de copia de los archivos.\n"
+"                                                 Para descubrir los valores más altos posibles, prueba un valor alto, como 500 o más. Si tienes problemas de tiempo de espera, bájalo\n"
+"                                                 hasta que no recibas más errores durante el proceso de copia."
+
+#: Backend/views/settings/tabs/general.php:67
+msgid ""
+"Number of DB rows, that are processed within one ajax query.\n"
+"                                        The higher the value the faster the database search & replace process.\n"
+"                                        This is a high memory consumptive process. If you get timeouts lower this value!"
+msgstr ""
+"Número de filas de BD que se procesan dentro de una consulta Ajax.\n"
+"                                                 Cuanto mayor sea el valor, más rápido será el proceso de búsqueda y reemplazo de la base de datos.\n"
+"                                                 Este es un proceso de alto consumo de memoria. Si obtienes tiempos de espera, ¡baja este valor!"
+
+#: Backend/views/settings/tabs/general.php:42
+msgid ""
+"Number of DB rows, that are copied within one ajax query.\n"
+"                                        The higher the value the faster the database copy process.\n"
+"                                        To find out the highest possible values try a high value like 1.000 or more. If you get timeout issues, lower it\n"
+"                                        until you get no more errors during copying process."
+msgstr ""
+"Número de filas de BD, que se copian dentro de una consulta Ajax.\n"
+"                                                 Cuanto mayor sea el valor, más rápido será el proceso de copia de la base de datos.\n"
+"                                                 Para descubrir los valores más altos posibles, prueba con un valor alto, como 1.000 o más. Si tienes problemas de tiempo de espera, bájalo\n"
+"                                                 hasta que no recibas más errores durante el proceso de copia."
+
+#: Backend/views/settings/tabs/general.php:174
+msgid ""
+"Using high will result in fast as possible processing but the cpu load\n"
+"                                        increases and it's also possible that staging process gets interrupted because of too many ajax requests\n"
+"                                        (e.g. <strong>authorization error</strong>).\n"
+"                                        Using a lower value results in lower cpu load on your server but also slower staging site creation."
+msgstr ""
+"El uso de un valor alto dará como resultado un procesamiento lo más rápido posible, pero la carga de la CPU\n"
+"                                                 aumenta y también es posible que el proceso de desarrollo se interrumpa debido a demasiadas solicitudes Ajax\n"
+"                                                 (por ejemplo, <strong>error de autorización</strong>).\n"
+"                                                 El uso de un valor más bajo da como resultado una menor carga de CPU en tu servidor, pero también una creación más lenta del sitio de desarrollo."
+
+#: Backend/views/clone/ajax/start.php:44
+msgid "WP STAGING successfully created a staging site in a sub-directory of your main site accessable from:<br><strong><a href=\"%1$s\" target=\"_blank\" id=\"wpstg-clone-url-1\">%1$s</a></strong>"
+msgstr "WP STAGING ha creado correctamente un sitio de pruebas en un subdirectorio de tu sitio principal, accesible desde:<br><strong><a href=\"%1$s\" target=\"_blank\" id=\"wpstg-clone-url-1\">%1$s</a></strong>"
+
+#: Backend/views/notices/rating.php:23
+msgid ""
+"You are using <strong>WP STAGING </strong> for more than 1 week.\n"
+"                May we ask you to give it a <strong>5-star</strong> rating on wordpress.org?"
+msgstr ""
+"Estás usando <strong>WP STAGING</strong> desde hace más de 1 semana.\n"
+"         ¿Puedo pedirte que le des una valoración de <strong>5 estrellas</strong> en WordPress.org?"
+
+#: Backend/views/clone/single-site/index.php:4
+msgid "Overview"
+msgstr "Resumen"
+
+#: Backend/views/settings/tabs/general.php:269
+msgid ""
+"This will enable an extended debug mode which creates additional entries\n"
+"                                        in <strong>wp-content/uploads/wp-staging/logs/logfile.log</strong>.\n"
+"                                        <strong>Do NOT activate this until we ask you to do so!</strong>"
+msgstr ""
+"Esto activará un modo de depuración ampliado que crea registros adicionales\n"
+"                                                 en <strong>wp-content/uploads/wp-staging/logs/logfile.log </strong>.\n"
+"                                                 <strong>¡NO actives esto hasta que te pidamos que lo hagas!</strong>"
+
+#: Backend/Administrator.php:259
+msgid "Settings updated."
+msgstr "Ajustes actualizados."
+
+#: Backend/Administrator.php:322 Backend/Administrator.php:331
+msgid "WP Staging Jobs"
+msgstr "Trabajos de WP Staging"
+
+#: Backend/Administrator.php:341
+msgid "WP Staging Settings"
+msgstr "Ajustes de WP Staging"
+
+#: Backend/Administrator.php:342 Backend/Pluginmeta/Pluginmeta.php:56
+msgid "Settings"
+msgstr "Ajustes"
+
+#: Backend/Administrator.php:351
+msgid "WP Staging Tools"
+msgstr "Herramientas de WP Staging"

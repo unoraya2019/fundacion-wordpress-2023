@@ -1,0 +1,16 @@
+    .banner_destacado .inner-tx-w {
+        margin-left: 3vw;
+    }
+    .desarrollamos-section .btn-tell-more {
+        font-family: 'Sensation Bold';
+        font-size: 14px;
+    }
+    .banner_destacado h3 {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+    }
+    @media (max-width: 1360px) {
+      .banner_destacado .inner-tx-w {
+        margin-left: 0px;
+     }
+    }

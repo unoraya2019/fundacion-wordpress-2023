@@ -1,0 +1,20 @@
+.texto_con_imagen .object-fit-cover {
+    max-height: 500px;
+}
+.texto_con_imagen h3 {
+    color: #ff671b;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+.texto_con_imagen button.btn.btn-primary {
+    padding: 10px 25px;
+    background-color: #ff671b;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+}
+@media (max-width: 600px) {
+    .what-we-do .txt-bx-wht h2 {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,58 @@
+    .actualidad_others .position-relative {
+        max-width: 260px;
+        margin: 0px 20px;
+    }
+    .actualidad_content h1 {
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .actualidad_others h4 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .actualidad_others p {
+        font-size: 14px;
+    }
+    .actualidad_others .dates.ff-sans-i {
+        font-style: italic;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .actualidad_content h3 {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+    .actualidad_others h3 {
+        font-size: 38px;
+        margin: 0 0 30px;
+    }
+    .breadcrumb_actualidad > a {
+        color: #6fccdc;
+        font-size: 16px;
+        margin: 0px 5px;
+    }
+    .tags a {
+        color: #ff671b;
+        font-size: 14px;
+        margin-top: 10px;
+        display: block;
+    }
+    section.actualidad_others {
+        margin-top: 40px;
+    }
+    .one-blg a {
+        font-family: 'Sensation Bold';
+            color: #ff671b;
+    }
+    @media (max-width: 600px) {
+        .breadcrumb_actualidad {
+            margin-top: 30px;
+        }
+        .listing-here .img-bx {
+            height: 150px;
+        }
+        .listing-here .one-blg+.one-blg {
+            margin-top: 0px;
+        }
+    }

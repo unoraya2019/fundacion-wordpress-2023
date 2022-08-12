@@ -1,0 +1,26 @@
+    .donaciones {
+        max-width: 600px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .donaciones img {
+        margin-bottom: 20px;
+    }
+    .progress-bar {
+        background-color: #ff680b;
+    }
+    .progress {
+        margin-bottom: 10px;
+    }
+    .donaciones .btn {
+        margin: 0px auto;
+        display: block;
+        margin-top: 30px;
+    }
+    .donaciones .flex {
+        width: 100%;
+        justify-content: end;
+    }
+    .donaciones label {
+        margin: 0px 6px;
+    }

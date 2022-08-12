@@ -1,0 +1,26 @@
+.texto_con_fondo ul li {
+    position: relative;
+}
+.texto_con_fondo ul li:after {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: #ff671b;
+    left: 0;
+    top: 9px;
+}
+@media (max-width: 600px) {
+  .texto_con_fondo .for-hght {
+        display: none;
+    }
+    .texto_con_fondo .container {
+        position: relative !important;
+        padding-bottom: 50px;
+        margin-bottom: 60px;
+    }
+    .texto_con_fondo {
+        margin: 0px;
+    }
+}

@@ -1,0 +1,91 @@
+section.contactenos {
+        background: #f7f7f7;
+    }
+    .contactenos__form {
+        padding: 80px 6%;
+    }
+    .contactenos__form h1 {
+        color: #313338;
+        font-size: 50px;
+    }
+    .contactenos__item {
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    .contactenos__form, .contactenos__img {
+        flex: 1;
+    }
+    .contactenos__form input[type="text"],
+    .contactenos__form select,
+    .contactenos__form input[type="tel"],
+    .contactenos__form input[type="email"],
+    .contactenos__form textarea{
+        padding: 15px;
+        border: none;
+        border-radius: 3px;
+        margin: 6px;
+        flex: 1;
+    }
+    .contactenos__form textarea {
+        height: 160px;
+        resize: none;
+    }
+    .contactanos__radios {
+        flex: 1;
+        margin: 6px;
+    }
+    .contactenos__form input[type="submit"] {
+        flex: 1;
+        background: #ff6a12;
+        color: #fff;
+        border: none;
+        padding: 10px 0px;
+        font-family: 'Sensation Bold';
+        margin: 6px;
+    }
+    .contactenos__form .form-check {
+        margin: 6px;
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contactenos__item_p {
+        margin: 6px;
+        margin-top: 10px;
+    }
+    .contactanos__radios label {
+        font-size: 14px;
+    }
+    .contactenos__img {
+        background-size: cover;
+        background-position: center;
+    }
+    @media (max-width: 600px) {
+        section.contactenos > div, .contactenos__item {
+            flex-flow: column;
+        }
+       .contactenos__item {
+            align-items: flex-start;
+        }
+        .contactenos__img {
+            order: 1;
+            height: 210px;
+            flex: initial;
+            overflow: hidden;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .contactenos__form {
+            order: 2;
+            padding-top: 40px;
+        }
+        .contactenos__form input[type="submit"] {
+            width: 100%;
+        }
+    }
+    #sendFormContact:disabled,
+    #sendFormContact[disabled] {
+        background: #c6c6c6;
+        cursor: progress;
+    }

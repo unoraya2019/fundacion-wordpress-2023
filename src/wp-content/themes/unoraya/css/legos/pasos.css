@@ -1,0 +1,29 @@
+    .zig-zag-se .inr-zig-zag .num-se {
+        font-family: 'Sensation Bold';
+    }
+    .pasos_content__encabezado {
+        text-align: center;
+    }
+    .pasos_content__encabezado h2 {
+        font-size: 35px;
+        color: #2f425b;
+        margin-bottom: 15px;
+    }
+    .pasos_content__encabezado p {
+        font-size: 18px;
+        color: #77777a;
+        line-height: 32px;
+        margin-bottom: 45px;
+    }
+    .pasos_content .txt-prt a {
+        color: #f47c20;
+        text-decoration: underline;
+    }
+    .btn-seguir-en {
+        margin-top: 0px !important;
+    }
+    @media (max-width: 600px) {
+      .pasos_content__encabezado h2 {
+            font-size: 30px;
+        }
+    }

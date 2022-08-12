@@ -1,0 +1,45 @@
+ section.slider_eventos h3 {
+        background-color: #ff671b;
+        margin: 0 0 30px;
+        color: #fff;
+        line-height: 1;
+        padding: 12px 25px;
+        display: inline-block;
+        font-size: 48px;
+    }
+    .slider-eventos__texto {
+        background-color: rgba(49,51,56,.95);
+        padding: 20px;
+        max-width: 360px;
+        width: 100%;
+        color: #fff;
+    }
+    .slider-eventos__texto h4 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .slider-eventos__texto p {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .slider_eventos .swiper-slide {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 90px 30px;
+        height: 570px;
+    }
+    .slider-eventos__flechas {
+        position: absolute;
+        bottom: 90px;
+        left: 30px;
+    }
+    @media (max-width: 991px) {
+        section.slider_eventos h3 {
+            margin: 0 0 10px;
+            font-size: 30px;
+        }
+        .slider-eventos__flechas {
+            bottom: 30px;
+        }
+    }
