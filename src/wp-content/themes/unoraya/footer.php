@@ -1,3 +1,18 @@
+<section id="cookieControl" class="cookieControl" style="display: block;">
+    <div class="cookieControl__Bar cookieControl__Bar--bottom-full">
+        <div class="cookieControl__BarContainer">
+            <div>
+                <h3>Cookies &amp; privacidad</h3>
+                <p>Utilizamos cookies para personalizar el contenido y los anuncios, proporcionar funciones de redes
+                    sociales y analizar nuestro tráfico.</p>
+            </div>
+            <div class="cookieControl__BarButtons">
+                <a href="http://unoraya.com/demo/fds/wp-content/uploads/2022/04/Terminos_y_Condiciones_FBD_2020.pdf" target="_blank" class="btn btn-primary">Aprenda más</a>
+                <a onclick="showHideCookie('none')" class="btn btn-warning">Entendido</a>
+            </div>
+        </div>
+    </div>
+</section>
 <footer class="position-relative"><a id="scroll" href="javascript:void(0)"><span><svg version="1.2"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible"
                 preserveAspectRatio="none" viewBox="0 0 24 24" width="39" height="39">

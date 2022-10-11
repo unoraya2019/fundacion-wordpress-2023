@@ -118,3 +118,14 @@ btnsGTM.forEach(box => {
     pushEventGTM($(e.srcElement), urlBtn, targetBtn, findTag, customTitlePost);
   });
 });
+
+const tmpCookie = localStorage.getItem("cookieAceptada");
+if (!tmpCookie) {
+    localStorage.setItem("cookieAceptada", 'true');
+    showHideCookie('block');
+}
+
+function showHideCookie(diplay) {
+    const element = document.getElementById("cookieControl");
+    element.style.display = diplay;
+}
