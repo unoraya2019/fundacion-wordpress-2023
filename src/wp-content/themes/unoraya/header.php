@@ -16,24 +16,24 @@
     <link rel="stylesheet" href="<?php echo $unorayaCss; ?>" async defer>
     <?php $buildJs = esc_url( get_template_directory_uri() . '/js/build.js' ); ?>
     <script src="<?php echo $buildJs; ?>"></script>
-	
-	<!-- Google Tag Manager -->
+
+	<!-- Google Tag Manager  Pixel-->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-KNBPM36');</script>
 	<!-- End Google Tag Manager -->
-	
+
 	<!-- PUSH NOTIFICATION CONQUISTA SOCIAL -->
 	<script src="https://my.rtmark.net/p.js?f=sync&lr=1&partner=d131bbee1c96f5f4da962f8b246e488e051196b9cc21eae8c1cff944ad7bee58" defer></script>
-	
+
 	<!-- PIXEL ELOQUA -->
 	<script type="text/javascript">
     		var _elqQ = _elqQ || [];
     		_elqQ.push(['elqSetSiteId', '23677991']);
     		_elqQ.push(['elqTrackPageView']);
-    
+
     	(function () {
         	function async_load() {
             	var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
@@ -41,11 +41,11 @@
             	var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
         	}
         	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
-        	else if (window.attachEvent) window.attachEvent('onload', async_load); 
+        	else if (window.attachEvent) window.attachEvent('onload', async_load);
     		})();
 	</script>
 
-	
+
 	<!-- Global site tag (gtag.js) - Google Ads: 862755000  Google Ad Grants-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-862755000"></script>
 	<script>
@@ -55,7 +55,7 @@
 
   		gtag('config', 'AW-862755000');
 	</script>
-	
+
 	<!-- Global site tag (gtag.js) - Google Ads: 624525641 Google ADS-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-624525641"></script>
 	<script>
@@ -66,17 +66,17 @@
   		gtag('config', 'AW-624525641');
 	</script>
 	<!-- End Google ADS -->
-	
+
 	<!-- Google tag (gtag.js)  PIXEL APX GOOGLE ANALYTICS-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121077039-7"></script>
 	<script>
   		window.dataLayer = window.dataLayer || [];
   		function gtag(){dataLayer.push(arguments);}
   		gtag('js', new Date());
- 
+
   		gtag('config', 'UA-121077039-7');
 	</script>
-	
+
 	<!-- Meta Pixel Code  PIXEL APX FACEBOOK ADS-->
 	<script>
 		!function(f,b,e,v,n,t,s)
@@ -91,31 +91,33 @@
 		fbq('track', 'PageView');
 	</script>
 	<!-- End Meta Pixel Code -->
-	
+
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-	
+
 	<!-- Google Tag Manager (noscript) NOSCRIPT COMPLEMENTO GOOGLE TAG MANAGER-->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNBPM36"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe>
 	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	
-	<!-- Facebook Ads (noscript) NOSCRIPT COMPLEMENTO FACEBOOK ADS APX-->
+
+  <!-- Facebook Ads (noscript) NOSCRIPT COMPLEMENTO FACEBOOK ADS APX-->
 	<noscript>
 		<img height="1" width="1" style="display:none"
 		src="https://www.facebook.com/tr?id=1028910734356537&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Ads (noscript) -->
-	
+
+  
+
 	<!-- Push Notification Conquista Social (noscript) NOSCRIPT COMPLEMENTO PUSH NOTIFICATION CONQUISTA SOCIAL-->
 	<noscript>
 		<img src="https://my.rtmark.net/img.gif?f=sync&lr=1&partner=d131bbee1c96f5f4da962f8b246e488e051196b9cc21eae8c1cff944ad7bee58" width="1" height="1" />
 	</noscript>
-	
-	
+
+
     <header class="header">
       <div id="menu_fixed" class="fixed-this">
          <nav class="navbar navbar-expand-lg"
@@ -140,12 +142,12 @@
               <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 24 24"><g><path xmlns:default="http://www.w3.org/2000/svg" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" style="fill:#ff671b"></path></g></svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
+
             <div class="manu-text-close-ic d-none-n d-block-991">
                 <div class="d-flex justify-content-center position-relative">
                     <h3 class="ff-sans-b">Menú</h3>
                     <a id="close-mobile-menu"
-                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent"
                         class="ic-close-menu position-absolute">
                         <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 24 24"
