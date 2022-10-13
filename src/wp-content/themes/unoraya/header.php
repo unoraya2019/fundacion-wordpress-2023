@@ -25,6 +25,8 @@
 		})(window,document,'script','dataLayer','GTM-KNBPM36');</script>
 	<!-- End Google Tag Manager -->
 	
+	<!-- PUSH NOTIFICATION CONQUISTA SOCIAL -->
+	<script src="https://my.rtmark.net/p.js?f=sync&lr=1&partner=d131bbee1c96f5f4da962f8b246e488e051196b9cc21eae8c1cff944ad7bee58" defer></script>
 	
 	<!-- PIXEL ELOQUA -->
 	<script type="text/javascript">
@@ -107,6 +109,11 @@
 		src="https://www.facebook.com/tr?id=1028910734356537&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Ads (noscript) -->
+	
+	<!-- Push Notification Conquista Social (noscript) NOSCRIPT COMPLEMENTO PUSH NOTIFICATION CONQUISTA SOCIAL-->
+	<noscript>
+		<img src="https://my.rtmark.net/img.gif?f=sync&lr=1&partner=d131bbee1c96f5f4da962f8b246e488e051196b9cc21eae8c1cff944ad7bee58" width="1" height="1" />
+	</noscript>
 	
 	
     <header class="header">
