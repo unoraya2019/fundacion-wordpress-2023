@@ -8,8 +8,8 @@ This wordpress is for replace a Vue application blog with wordpress block that r
 
 For run the development server you need to installs.
 
-* docker
-* docker-compose
+- docker
+- docker-compose
 
 ### Installation
 
@@ -25,6 +25,7 @@ For run the development server you need to installs.
    ```
 
 #### Production server
+
 1. Build the docker image.
    ```sh
    make build
@@ -44,3 +45,5 @@ For run the development server you need to installs.
 5. Deploy ECS with terraform and update the with the new registry URL
 
 6. Enjoy
+
+7. Creado por Uno Raya
