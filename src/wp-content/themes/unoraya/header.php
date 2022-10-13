@@ -25,6 +25,25 @@
 		})(window,document,'script','dataLayer','GTM-KNBPM36');</script>
 	<!-- End Google Tag Manager -->
 	
+	
+	<!-- PIXEL ELOQUA -->
+	<script type="text/javascript">
+    		var _elqQ = _elqQ || [];
+    		_elqQ.push(['elqSetSiteId', '23677991']);
+    		_elqQ.push(['elqTrackPageView']);
+    
+    	(function () {
+        	function async_load() {
+            	var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            	s.src = '//img03.en25.com/i/elqCfg.min.js';
+            	var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        	}
+        	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        	else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    		})();
+	</script>
+
+	
 	<!-- Global site tag (gtag.js) - Google Ads: 862755000  Google Ad Grants-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-862755000"></script>
 	<script>
