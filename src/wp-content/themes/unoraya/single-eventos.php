@@ -72,17 +72,16 @@
                   <div class="i-txt"></div>
                 </li>
               </ul>
-                <div class="btn-gp">
-                <?php if(get_field('link_del_evento')): ?>
-                    <a href="<?php echo get_field('link_del_evento'); ?>"
-                        onclick="pushEventGTM(this, '<?php echo get_field('link_del_evento'); ?>', '_self', 'h4', '<?php echo get_the_title(); ?>')"
-                        target="_blank"
-                        class="btn-attend text-center">Asistir</a>
-                <?php
-                else: ?>
-                    <span>Evento finalizado</span>
-                <?php endif; ?>
-                </div>
+                  <div class="btn-gp">
+                  <?php if(get_field('link_del_evento')): ?>
+                      <a onclick="pushEventGTM(this, '<?php echo get_field('link_del_evento'); ?>', '_self', 'h4', '<?php echo get_the_title(); ?>')"
+                          target="_blank"
+                          class="btn-attend text-center">Inscríbase aquí</a>
+                  <?php
+                  else: ?>
+                      <span>Evento finalizado</span>
+                  <?php endif; ?>
+                  </div>
             </div>
           </div>
         </div>
