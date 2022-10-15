@@ -204,7 +204,7 @@ tramp
 
 # cask packages
 .cask/
-dist/
+
 
 # Flycheck
 flycheck_*.el
@@ -280,7 +280,6 @@ tmtags
 **/nbproject/Package-*.bash
 build/
 nbbuild/
-dist/
 nbdist/
 .nb-gradle/
 
