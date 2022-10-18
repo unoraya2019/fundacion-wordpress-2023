@@ -74,9 +74,9 @@
               </ul>
                   <div class="btn-gp">
                   <?php if(get_field('link_del_evento')): ?>
-                      <a onclick="pushEventGTM(this, '<?php echo get_field('link_del_evento'); ?>', '_self', 'h4', '<?php echo get_the_title(); ?>')"
+                      <span onclick="pushEventGTM(this, '<?php echo get_field('link_del_evento'); ?>', '_self', 'h4', '<?php echo get_the_title(); ?>')"
                           target="_blank"
-                          class="btn-attend text-center">Inscríbase aquí</a>
+                          class="btn-attend text-center">Inscríbase aquí</span>
                   <?php
                   else: ?>
                       <span>Evento finalizado</span>
