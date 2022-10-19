@@ -22,6 +22,7 @@
               ?>
                 <?php if(get_sub_field('contenido')): ?>
                 <div class="perfiles__item">
+                    
                     <h3><?php echo get_sub_field('titulo'); ?></h3>
                     <img class="img-fluid"
                          src="<?php echo esc_url($urlPF); ?>"
