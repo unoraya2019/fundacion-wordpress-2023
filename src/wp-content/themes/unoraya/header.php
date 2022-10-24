@@ -25,6 +25,29 @@
 		})(window,document,'script','dataLayer','GTM-KNBPM36');</script>
 	<!-- End Google Tag Manager -->
 
+  <!-- Global site tag (gtag.js) - Google Ads: 862755000  GOOGLE AD GRANTS CONVOCATORIA PEA-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-862755000"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-862755000');
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Ads: 624525641  GOOGLE ADS CONVOCATORIA PEA-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-624525641"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-624525641');
+</script>
+
+
+
 	<!-- PUSH NOTIFICATION CONQUISTA SOCIAL -->
 	<script src="https://my.rtmark.net/p.js?f=sync&lr=1&partner=d131bbee1c96f5f4da962f8b246e488e051196b9cc21eae8c1cff944ad7bee58" defer></script>
 
@@ -110,7 +133,7 @@
 	/></noscript>
 	<!-- End Facebook Ads (noscript) -->
 
-  
+
 
 	<!-- Push Notification Conquista Social (noscript) NOSCRIPT COMPLEMENTO PUSH NOTIFICATION CONQUISTA SOCIAL-->
 	<noscript>
