@@ -46,12 +46,13 @@
   gtag('config', 'AW-624525641');
 </script>
 
-<!-- PIXEL DE GOOGLE ADS MOVIL CONVOCATORIA PEA-->
-
-Client ID: 541109
-
-
-https://help.mgid.com/how-to-setup-conversion-tracking-with-mgid-pixel-google-tag-manager-template
+<!-- Google Tag Manager AMBIENTE DE PRUEBAS -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K3234SQ');</script>
+<!-- End Google Tag Manager -->
 
 
 	<!-- PUSH NOTIFICATION CONQUISTA SOCIAL -->
@@ -124,6 +125,11 @@ https://help.mgid.com/how-to-setup-conversion-tracking-with-mgid-pixel-google-ta
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+
+  <!-- Google Tag Manager (noscript) AMBIENTE DE PRUEBAS-->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
 
 	<!-- Google Tag Manager (noscript) NOSCRIPT COMPLEMENTO GOOGLE TAG MANAGER-->
 	<noscript>
