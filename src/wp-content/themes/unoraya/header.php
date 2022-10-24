@@ -46,12 +46,6 @@
   gtag('config', 'AW-624525641');
 </script>
 
-<!-- PIXEL DE GOOGLE ADS MOVIL CONVOCATORIA PEA-->
-
-Client ID: 541109
-
-
-https://help.mgid.com/how-to-setup-conversion-tracking-with-mgid-pixel-google-tag-manager-template
 
 
 	<!-- PUSH NOTIFICATION CONQUISTA SOCIAL -->
