@@ -89,17 +89,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     		})();
 	</script>
 
-	<!-- Global site tag (gtag.js) - Google Ads: 624525641 Google ADS-->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-624525641"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-
-  		gtag('config', 'AW-624525641');
-	</script>
-	<!-- End Google ADS -->
-
 	<!-- Google tag (gtag.js)  PIXEL APX GOOGLE ANALYTICS-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121077039-7"></script>
 	<script>
