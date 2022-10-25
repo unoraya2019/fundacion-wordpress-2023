@@ -89,17 +89,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     		})();
 	</script>
 
-
-	<!-- Global site tag (gtag.js) - Google Ads: 862755000  Google Ad Grants-->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-862755000"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-
-  		gtag('config', 'AW-862755000');
-	</script>
-
 	<!-- Global site tag (gtag.js) - Google Ads: 624525641 Google ADS-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-624525641"></script>
 	<script>
