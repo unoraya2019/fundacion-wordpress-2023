@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet" async>
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <!-- CSS only -->
     <?php $buildCss = esc_url( get_template_directory_uri() . '/css/build.min.css' ); ?>
     <link rel="stylesheet" href="<?php echo $buildCss; ?>" async defer>
@@ -35,6 +35,19 @@
   gtag('config', 'AW-862755000');
 </script>
 
+<!-- Meta Pixel Code  facebook pixel-->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '545571769782600');
+fbq('track', 'PageView');
+</script>
 
 <!-- Global site tag (gtag.js) - Google Ads: 624525641  GOOGLE ADS CONVOCATORIA PEA-->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-624525641"></script>
@@ -46,7 +59,8 @@
   gtag('config', 'AW-624525641');
 </script>
 
-<!-- Google Tag Manager AMBIENTE DE PRUEBAS -->
+
+<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -126,11 +140,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<!-- Google Tag Manager (noscript) AMBIENTE DE PRUEBAS-->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- facebook pixel (noscript) -->
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=545571769782600&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 
 	<!-- Google Tag Manager (noscript) NOSCRIPT COMPLEMENTO GOOGLE TAG MANAGER-->
 	<noscript>

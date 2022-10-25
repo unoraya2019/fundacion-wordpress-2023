@@ -1,4 +1,4 @@
-<section id="cookieControl" class="cookieControl" style="display: block;">
+<!--<section id="cookieControl" class="cookieControl" style="display: block;">
     <div class="cookieControl__Bar cookieControl__Bar--bottom-full">
         <div class="cookieControl__BarContainer">
             <div>
@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <footer class="position-relative"><a id="scroll" href="javascript:void(0)"><span><svg version="1.2"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible"
                 preserveAspectRatio="none" viewBox="0 0 24 24" width="39" height="39">
