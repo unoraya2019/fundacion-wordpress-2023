@@ -126,11 +126,10 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-  <!-- Google Tag Manager (noscript) AMBIENTE DE PRUEBAS-->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
-      		height="0" width="0" style="display:none;visibility:hidden"></iframe>
-	</noscript>
-      <!-- End Google Tag Manager (noscript) -->
+ <!-- Google Tag Manager (noscript) AMBIENTE DE PRUEBAS-->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 	<!-- Google Tag Manager (noscript) NOSCRIPT COMPLEMENTO GOOGLE TAG MANAGER-->
 	<noscript>
