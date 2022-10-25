@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet" async>
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <!-- CSS only -->
     <?php $buildCss = esc_url( get_template_directory_uri() . '/css/build.min.css' ); ?>
     <link rel="stylesheet" href="<?php echo $buildCss; ?>" async defer>
@@ -45,13 +45,14 @@
 
   gtag('config', 'AW-624525641');
 </script>
-
-<!-- Google Tag Manager AMBIENTE DE PRUEBAS -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-K3234SQ');</script>
+  
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K3234SQ');</script>
 <!-- End Google Tag Manager -->
 
 
