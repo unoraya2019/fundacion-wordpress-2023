@@ -105,7 +105,7 @@ $today = new DateTime('today');
                   <span>Evento finalizado</span>
                 <?php
                 elseif ($link_del_evento) : ?>
-                  <span onclick="pushEventGTM(this, '<?php echo get_field('link_del_evento'); ?>', '_self', 'h4', '<?php echo get_the_title(); ?>')" target="_blank"                        class="btn-attend text-center">Inscríbase aquí</span>
+                  <span onclick="pushEventGTM(this, '<?php echo get_field('link_del_evento'); ?>', '_self', 'h4', '<?php echo get_the_title(); ?>')" target="_blank" class="btn-attend text-center">Compre sus boletas aquí</span>
 
                 <?php
                 else : ?>
