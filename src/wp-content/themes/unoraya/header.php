@@ -35,6 +35,146 @@
   gtag('config', 'AW-862755000');
 </script>
 
+
+<!-- Meta Pixel Code FACEBOOK PIXEL PROGRAMA AFLORA-->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '688400532694698');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=688400532694698&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<!-- Event snippet for PAGE VIEW conversion page PIXEL GOOGLE ADS PROGRAMA AFLORA-->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-860668439/OXmsCKP88oUYEJeEs5oD'});
+</script>
+
+
+
+<!-- Meta Pixel Code FACEBOOK PIXEL BECAS AL TALENTO-->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '461740082823341');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=461740082823341&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<!-- Event snippet for PAGE VIEW (1) conversion page PIXEL GOOGLE ADS PROGRAMA BECAS AL TALENTO-->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-835467489/MAhtCKXV9IUYEOHxsI4D'});
+</script>
+
+<!-- Meta Pixel Code FACEBOOK PIXEL PROGRAMA EMPRENDE PAIS-->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2724457791023106');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2724457791023106&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- Event snippet for PAGE VIEW conversion page  PIXEL GOOGLE ADS PROGRAMA EMPRENDE PAIS-->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-861352918/kehICIf284UYENbn3JoD'});
+</script>
+
+<!-- Meta Pixel Code FACEBOOK PIXEL PROGRAMA FILARMONICA JOVEN DE COLOMBIA-->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '563356605174584');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=563356605174584&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<!-- Event snippet for PAGE VIEW conversion page PIXEL GOOGLE ADS PROGRAMA FILARMONICA JOVEN DE COLOMBIA-->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-861356012/6P9gCI7f74UYEOz_3JoD'});
+</script>
+
+
+<!-- Meta Pixel Code FACEBOOK PIXEL PROGRAMA INVERSION SOCIAL-->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '510715717692821');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=510715717692821&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- Event snippet for PAGE VIEW conversion page PIXEL GOOGLE ADS PROGRAMA INVERSION SOCIAL-->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-861339408/K4mTCOv384UYEJD-25oD'});
+</script>
+
+
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '563356605174584');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=563356605174584&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
 <!-- Meta Pixel Code  facebook pixel-->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -122,8 +262,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	
-	
+
+
 <!-- Facebook Pixel (noscript) -->
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=545571769782600&ev=PageView&noscript=1"
