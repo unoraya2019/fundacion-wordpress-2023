@@ -58,14 +58,14 @@ do_action( 'wp_body_open' );
 // Se agregan cabeceras de seguridad
 add_action( 'send_headers', 'add_header_seguridad' );
 function add_header_seguridad() {
-    header( 'X-Content-Type-Options: nosniff' );
-    header( 'X-Frame-Options: SAMEORIGIN' );
-    header( 'X-XSS-Protection: 1;mode=block' );
-    header( 'Strict-Transport-Security: max-age=31536000; includeSubDomains' );
-    header( "Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: www.gstatic.com *.gstatic.com *.google.com *.youtube.com *.googleapis.com *.googletagmanager.com www.google-analytics.com tags.bkrtx.com stats.g.doubleclick.net *.bluekai.com www.youtube.com googleads.g.doubleclick.net www-embed-player.js *.cloudfront.net cdn.jsdelivr.net *.en25.com *.eloqua.com tags.bluekai.co *.fundacionbolivardavivienda.org *.facebook.net *.rtmark.net *.googleadservices.com *.mgid.com *.basis.net");
-    header( 'Referrer-Policy: strict-origin' );
-    header( 'Access-Control-Allow-Methods: POST, GET, OPTIONS' );
-    header( "Feature-Policy: microphone 'none'; geolocation 'none'" );
+  header( 'X-Content-Type-Options: nosniff' );
+  header( 'X-Frame-Options: SAMEORIGIN' );
+  header( 'X-XSS-Protection: 1;mode=block' );
+  header( 'Strict-Transport-Security: max-age=31536000; includeSubDomains' );
+  header( "Content-Security-Policy: manifest-src 'self'");
+  header( 'Referrer-Policy: strict-origin' );
+  header( 'Access-Control-Allow-Methods: POST, GET, OPTIONS' );
+  header( "Feature-Policy: microphone 'none'; geolocation 'none'" );
 }
 
 // Remover X-Powered-By
