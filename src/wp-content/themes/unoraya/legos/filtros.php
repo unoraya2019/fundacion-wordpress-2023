@@ -24,6 +24,7 @@
                   <input class="form-check-input <?php echo $checked1; ?>"
                          type="checkbox"
                          name="filtro1"
+                         onclick="dataLayer.push({'eventCategory': window.location.pathname,'eventAction': 'Click','eventLabel': '  Ubicación - '+this.value,'eventValue': '','event': 'eventClick'});"
                          value="<?php echo $idFilter1; ?>"
                          id="<?php echo $idFilter1; ?>">
                   <label class="form-check-label" for="<?php echo $idFilter1; ?>">
@@ -46,6 +47,7 @@
                   <input class="form-check-input <?php echo $checked2; ?>"
                          type="checkbox"
                          name="filtro2"
+                         onclick="dataLayer.push({'eventCategory': window.location.pathname,'eventAction': 'Click','eventLabel': 'Ubicación -DPTO- '+this.value,'eventValue': '','event': 'eventClick'});"
                          value="<?php echo $idFilter2; ?>"
                          id="<?php echo $idFilter2; ?>">
                   <label class="form-check-label" for="<?php echo $idFilter2; ?>">

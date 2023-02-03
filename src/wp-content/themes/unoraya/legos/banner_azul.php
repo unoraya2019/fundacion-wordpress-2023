@@ -11,7 +11,7 @@
                 <h2><?php echo get_sub_field('titulo'); ?></h2>
                 <p><?php echo get_sub_field('descripcion'); ?></p>
                 <br>
-                <a class="btn-tell-more ff-sans-b"
+                <a class="btn-tell-more ff-sans-b bannerblue" data-title="<?php echo get_sub_field('titulo'); ?> - <?php echo esc_html( $link_titleBazul ); ?>"
                     onclick="pushEventGTM(this, '<?php echo esc_url( $link_urlBazul ); ?>',
                     '<?php echo esc_attr( $link_targetBazul ); ?>')"><?php echo esc_html( $link_titleBazul ); ?></a>
             </div>

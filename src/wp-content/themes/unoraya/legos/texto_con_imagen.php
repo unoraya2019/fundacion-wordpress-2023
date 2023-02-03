@@ -24,7 +24,7 @@ if ( !isset($loadTextoConImagen) ){
                             $countContentSection = str_word_count(get_sub_field('texto'), 0);
                             $idBtnSection = $titlePage + $countContentSection;
                     ?>
-                    <button class="btn btn-primary"
+                    <button class="btn btn-primary genBtn" data-target="<?php echo $link_urlRd; ?>"
                         type="button"
                         onclick="pushEventGTM(this, '<?php echo $link_urlRd; ?>', '<?php echo $link_targetRd; ?>')"
                         id="btn_<?php echo $idBtnSection; ?>"><?php echo esc_html( $link_titleRd ); ?></button>

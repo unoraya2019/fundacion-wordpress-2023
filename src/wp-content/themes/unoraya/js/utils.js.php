@@ -129,3 +129,18 @@ function showHideCookie(diplay) {
     const element = document.getElementById("cookieControl");
     element.style.display = diplay;
 }
+
+
+//algunos scripts para aplicar tagging 
+//anclas del footer
+$(".footertag").on('click', function(e){
+    let tag = {'eventCategory': window.location.pathname,'eventAction': 'Click','eventLabel': 'Footer - '+$(this).text(),'eventValue': '','event': 'eventClick'}
+    dataLayer.push(tag);
+    console.log(tag)
+})
+
+$(".anchortag").on('click', function(e){
+    let tag = dataLayer.push({'eventCategory': 'Programa - FJC','eventAction': 'Click','eventLabel': '8.3.1.2 Audiciones - Requisitos - Texto completo de requerimientos ','eventValue': '','event': 'eventClick'});
+    dataLayer.push(tag);
+    console.log(tag)
+})

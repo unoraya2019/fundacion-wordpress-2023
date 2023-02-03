@@ -18,7 +18,7 @@
                 $category = get_the_category(get_the_ID());
                 $categoryName = $category[0]->name;
         ?>
-            <div class="flex actualidad__item"
+            <div class="flex actualidad__item ntag6" data-title="<?php echo get_the_title(); ?>"
                  id="actualidad<?php echo $i; ?>"
                  onclick="changeActualy('<?php echo get_the_date( 'l F j, Y' ); ?>',
                                         '#<?php echo $categoryName; ?>',
@@ -31,7 +31,7 @@
                 <div class="actualidad__item__text">
                     <h3><?php echo get_the_title(); ?></h3>
                     <p><?php echo get_field('breve_descripcion'); ?></p>
-                    <a class="flex btn btn_evento" href="<?php the_permalink(); ?>">
+                    <a class="flex btn btn_evento ntag8" data-title="<?php echo get_the_title(); ?>" href="<?php the_permalink(); ?>">
                         <span>Ver noticia</span>
                         <img src="<?php echo esc_url( get_template_directory_uri() . '/img/flecha_blanca.svg' ); ?>">
                     </a>
@@ -51,7 +51,7 @@
             </div>
             <div id="actualidadDate" class="date"></div>
             <h3 id="actualidadTitle"></h3>
-            <a class="flex btn btn_evento"
+            <a class="flex btn btn_evento ntag8" 
                 id="actualidadUrl"
                 data-link=""
                 onclick="sendActionGTM(this)">

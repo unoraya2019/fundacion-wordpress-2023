@@ -21,7 +21,7 @@
         ?>
         <a onclick="pushEventGTMBtn(this)"
             id="slide_dato__btn<?php echo $contSlider . $tmpSliderDatos; ?>"
-            class="btn slide-<?php echo $contSlider . $tmpSliderDatos; ?>"><?php echo get_sub_field('nombre_boton'); ?></a>
+            class="btn slide-<?php echo $contSlider . $tmpSliderDatos; ?> ntag18"><?php echo get_sub_field('nombre_boton'); ?></a>
         <?php 
         $contSlider = $contSlider + 1;
         endwhile; ?>

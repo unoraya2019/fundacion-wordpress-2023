@@ -22,7 +22,7 @@
                 <div class="swiper-slide" style="background-image: url(<?php echo $imageBannerSlider; ?>)">
                     <div class="slider-eventos__contenido">
                     <h3>Próximos Eventos</h3>
-                    <a onclick="pushEventGTM(this, '<?php the_permalink(); ?>', '_self', 'h4')">
+                    <a onclick="pushEventGTM(this, '<?php the_permalink(); ?>', '_self', 'h4')" class="ntag7" data-title="<?php echo get_the_title(); ?>">
                         <div class="slider-eventos__texto">
                             <h4><?php echo get_the_title(); ?></h4>
                             <?php echo get_field('descripcion_del_evento'); ?>
@@ -31,7 +31,7 @@
                             <p>Hora: <?php echo get_field('hora'); ?></p>
                         </div>
                     </a>
-                    <a class="flex btn btn_evento" onclick="pushEventGTM(this, '<?php the_permalink(); ?>', '_self', 'h4')">
+                    <a class="flex btn btn_evento ntag7" onclick="pushEventGTM(this, '<?php the_permalink(); ?>', '_self', 'h4')">
                         <span>Ver evento</span>
                         <img src="<?php echo esc_url( get_template_directory_uri() . '/img/flecha_blanca.svg' ); ?>">
                     </a>

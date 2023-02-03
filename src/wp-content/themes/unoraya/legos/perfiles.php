@@ -29,7 +29,7 @@
                          alt="<?php echo esc_attr($altPF); ?>">
                     <p><?php echo get_sub_field('contenido'); ?></p>
                     <?php if(get_sub_field('url')): ?>
-                    <a class="btn btn-primary"
+                    <a class="btn btn-primary ntag53" target="_blank" data-title="<?php echo get_sub_field('titulo'); ?> - <?php echo esc_html( $link_titlePF ); ?>"
                         onclick="pushEventGTM(this, '<?php echo esc_url( $link_urlPF ); ?>', '<?php echo esc_attr( $link_targetPF ); ?>')"><?php echo esc_html( $link_titlePF ); ?></a>
                     <?php endif; ?>
                 </div>
@@ -39,7 +39,7 @@
                     <img src="<?php echo esc_url($urlPF); ?>"
                          alt="<?php echo esc_attr($altPF); ?>">
                     <?php if(get_sub_field('url')): ?>
-                    <a class="btn btn-primary"
+                    <a class="btn btn-primary tag ntag30" data-title="<?php echo get_sub_field('titulo'); ?>"
                         onclick="pushEventGTM(this, '<?php echo esc_url( $link_urlPF ); ?>', '<?php echo esc_attr( $link_targetPF ); ?>')"><?php echo esc_html( $link_titlePF ); ?></a>
                     <?php endif; ?>
                 </div>

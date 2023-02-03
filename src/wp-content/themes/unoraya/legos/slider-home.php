@@ -17,7 +17,7 @@
               ?>
                 <div class="swiper-slide" style="background-image: url(<?php echo $imageSlide; ?>)">
                     <?php if(get_sub_field('link')): ?>
-                    <a onclick="pushEventGTM(this, '<?php echo $link_urlSH; ?>', '<?php echo $link_targetSH; ?>', 'Slider home -')">
+                    <a onclick="pushEventGTM(this, '<?php echo $link_urlSH; ?>', '<?php echo $link_targetSH; ?>', 'Slider home -')" class="ntag1" data-title="<?php echo get_sub_field('titulo'); ?>">  
                         <div class="max-content slider-home__contenido">
                             <h2 data-wow-duration="2s" class="wow bounceInDown"><?php echo get_sub_field('titulo'); ?></h2>
                             <p data-wow-duration="2s" class="wow bounceInUp"><?php echo get_sub_field('descripcion'); ?></p>

@@ -35,7 +35,6 @@
   gtag('config', 'AW-862755000');
 </script>
 
-
 <!-- Meta Pixel Code FACEBOOK PIXEL PROGRAMA AFLORA-->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -262,8 +261,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
-
+	
+	
 <!-- Facebook Pixel (noscript) -->
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=545571769782600&ev=PageView&noscript=1"
@@ -305,7 +304,7 @@ src="https://www.facebook.com/tr?id=545571769782600&ev=PageView&noscript=1"
                      class="img-fluid"
                      src="<?php echo get_site_url(); ?>/wp-content/uploads/2022/06/logo-1.png">
             </a>
-            <button class="navbar-toggler"
+            <button class="navbar-toggler ntag2"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
@@ -342,7 +341,7 @@ src="https://www.facebook.com/tr?id=545571769782600&ev=PageView&noscript=1"
                 'container' => false,
                 'menu_class' => '',
                 'fallback_cb' => '__return_false',
-                'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
+                'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s menubtns">%3$s</ul>',
                 'depth' => 2,
                 'walker' => new bootstrap_5_wp_nav_menu_walker()
             ));
