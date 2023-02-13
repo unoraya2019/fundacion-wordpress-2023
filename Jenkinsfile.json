@@ -39,7 +39,7 @@
         "launchType": "FARGATE",
         "taskCount": "2",
         "repositoryUrl": "https://735065655809.dkr.ecr.us-east-1.amazonaws.com",
-        "repositoryImage": "735065655809.dkr.ecr.us-east-1.amazonaws.com/fundacion-davivienda-prod-davivienda"
+        "repositoryImage": "735065655809.dkr.ecr.us-east-1.amazonaws.com/fundacion-davivienda-prod-fundacion-davivienda"
     }
 }
 
