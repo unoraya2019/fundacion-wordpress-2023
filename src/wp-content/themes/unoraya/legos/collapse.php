@@ -9,8 +9,8 @@
     <div class="max-content">
         <div class="accordion" id="accordionExample">
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button"
+        <h2 class="accordion-header" id="headingOne" >
+          <button class="accordion-button ntag12"
                   type="button"
                   onclick="pushEventGTMBtn(this)"
                   data-bs-toggle="collapse"
@@ -29,7 +29,7 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed"
+          <button class="accordion-button collapsed ntag13"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseTwo"
@@ -47,7 +47,7 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed"
+          <button class="accordion-button collapsed ntag14"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseThree"
@@ -68,9 +68,9 @@
       </div>
     </div>
     <div class="flex collapse__content__options">
-        <a onclick="pushEventGTM(this, '<?php echo get_site_url(); ?>/wp-content/uploads/2022/04/estatutosfbd-2022-vf.pdf', '_blank', 'h5')"><h3>Conoce Nuestros Estatutos</h3></a>
-        <a onclick="pushEventGTM(this, '<?php echo get_site_url(); ?>/wp-content/uploads/2022/04/La_Fundacion_Codigo_Gobierno_Corporativo.pdf', '_blank', 'h5')"><h3>Código de Gobierno Corporativo</h3></a>
-        <a onclick="pushEventGTM(this, '<?php echo get_site_url(); ?>/wp-content/uploads/2022/04/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf', '_blank', 'h5')"><h3>Reglamento Ejecutivo</h3></a>
+        <a class="ntag15" onclick="pushEventGTM(this, '<?php echo get_site_url(); ?>/wp-content/uploads/2022/04/estatutosfbd-2022-vf.pdf', '_blank', 'h5')"><h3>Conoce Nuestros Estatutos</h3></a>
+        <a class="ntag16" onclick="pushEventGTM(this, '<?php echo get_site_url(); ?>/wp-content/uploads/2022/04/La_Fundacion_Codigo_Gobierno_Corporativo.pdf', '_blank', 'h5')"><h3>Código de Gobierno Corporativo</h3></a>
+        <a class="ntag17" onclick="pushEventGTM(this, '<?php echo get_site_url(); ?>/wp-content/uploads/2022/04/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf', '_blank', 'h5')"><h3>Reglamento Ejecutivo</h3></a>
     </div>
     </div>
 </section>

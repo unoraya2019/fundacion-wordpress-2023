@@ -9,7 +9,7 @@
         <div class="text-center">
             <h2 class="ff-sans-b"><?php echo get_sub_field('titulo'); ?></h2>
             <?php if(get_sub_field('enlace')): ?>
-            <a class="ff-lato"
+            <a class="ff-lato ntag39"
                 onclick="pushEventGTM(this, '<?php echo $link_urlIns; ?>', '<?php echo $link_targetIns; ?>')"><?php echo esc_html( $link_titleIns ); ?></a>
             <?php endif; ?>
         </div>

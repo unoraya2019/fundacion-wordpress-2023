@@ -19,7 +19,8 @@
                 $link_target = $link['target'] ? $link['target'] : '_self';
             ?>
             <?php if(get_sub_field('link')): ?>
-            <a class="conozca-mas-home-1 btn-tell-more send_dataGTM"
+            <a class="conozca-mas-home-1 btn-tell-more send_dataGTM ntag4"
+                data-title="<?php echo get_sub_field('titulo'); ?>"
                 data-url="<?php echo $link_url; ?>"
                 data-target="<?php echo $link_target; ?>"><?php echo esc_html( $link_title ); ?></a>
             <?php endif; ?>

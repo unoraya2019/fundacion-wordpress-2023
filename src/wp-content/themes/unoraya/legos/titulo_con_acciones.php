@@ -22,12 +22,12 @@ if ( !isset($loadTituloConAcciones) ){
         </div>
         <div class="two-btn d-flex justify-content-between ff-sans-b flex-wrap">
         <?php if(get_sub_field('boton_primario') && get_sub_field('boton_secundario')): ?>
-            <a class="btn-sm btn-line-btn text-center"
+            <a class="btn-sm btn-line-btn text-center ntag22"
                 onclick="pushEventGTM(this, '<?php echo $link_urlTcA2; ?>', '<?php echo $link_targetTcA2; ?>')"><?php echo esc_html( $link_titleTcA2 ); ?></a>
-            <a class="btn-sm btn-solid-btn text-center"
+            <a class="btn-sm btn-solid-btn text-center ntag22"
                 onclick="pushEventGTM(this, '<?php echo $link_urlTcA1; ?>', '<?php echo $link_targetTcA1; ?>')"><?php echo esc_html( $link_titleTcA1 ); ?></a>
         <?php elseif(get_sub_field('boton_primario') && !get_sub_field('boton_secundario')): ?>
-            <a class="btn-sm btn-solid-btn text-center margin-0-auto"
+            <a class="btn-sm btn-solid-btn text-center margin-0-auto ntag22"
                 onclick="pushEventGTM(this, '<?php echo $link_urlTcA1; ?>', '<?php echo $link_targetTcA1; ?>')"><?php echo esc_html( $link_titleTcA1 ); ?></a>
         <?php endif; ?>
         </div>

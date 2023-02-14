@@ -53,13 +53,13 @@
 <?php if ( $loop->have_posts() ): ?>
         <!-- Repeater    -->
         <?php while ( $loop->have_posts() ): $loop->the_post(); ?>
-        <div class="main-slider-at-top actualidad-pg"
+        <div class="main-slider-at-top actualidad-pg "
             data-content="<?php echo get_the_title(); ?>">
           <div class="img-prt position-relative">
             <img src="<?php echo get_field('banner'); ?>"
                  alt="<?php echo get_the_title(); ?>" 
                  class="object-fit-cover">
-            <div class="container position-absolute set-to-bottom">
+            <div class="container position-absolute set-to-bottom "  > 
               <div class="banner-txt text-white">
                 <div class="line-he-1">
                     <span class="date-p ff-nunito text-white"><?php echo get_the_date( 'l F j, Y' ); ?></span>
@@ -73,7 +73,7 @@
                   </p>
                 </div>
               </div>
-            </div> <a href="<?php the_permalink(); ?>" class="position-absolute full-box-link"></a>
+            </div> <a href="<?php the_permalink(); ?>" class="position-absolute full-box-link ntag59" data-title="<?php echo get_the_title(); ?>"></a>
           </div>
         </div>
         <?php endwhile; ?>
