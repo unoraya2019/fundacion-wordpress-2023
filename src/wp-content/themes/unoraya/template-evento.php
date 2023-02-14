@@ -73,7 +73,7 @@
             </div>
             <br>
             <a onclick="pushEventGTM(this, '<?php the_permalink(); ?>', '_self')"
-                class="btn-ver-evento ff-nunito position-relative">
+                class="btn-ver-evento ff-nunito position-relative ntag60" data-title="<?php echo get_the_title(); ?>">
                 Ver Evento</a>
         </div>
         <?php endwhile; ?>

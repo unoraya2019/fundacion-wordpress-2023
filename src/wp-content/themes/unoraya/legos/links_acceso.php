@@ -15,7 +15,7 @@
                     $link_titleLA = $linkLA['title'];
                     $link_targetLA = $linkLA['target'] ? $linkLA['target'] : '_self';
                 ?>
-                <a class="linkse d-flex justify-content-center align-items-center text-center"
+                <a class="linkse d-flex justify-content-center align-items-center text-center ntag18"
                     onclick="pushEventGTM(this, '<?php echo esc_url( $link_urlLA ); ?>', '<?php echo esc_attr( $link_targetLA ); ?>', 'NO')"><h2><?php echo esc_html( $link_titleLA ); ?></h2></a>
                 <?php echo get_sub_field('descripcionSc2'); ?>
               <?php endwhile; ?>

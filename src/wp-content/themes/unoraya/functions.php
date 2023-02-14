@@ -57,6 +57,7 @@ do_action( 'wp_body_open' );
 
 // Se agregan cabeceras de seguridad
 add_action( 'send_headers', 'add_header_seguridad' );
+
 function add_header_seguridad() {
   header( 'X-Content-Type-Options: nosniff' );
   header( 'X-Frame-Options: SAMEORIGIN' );
@@ -276,3 +277,14 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+function add_additional_class_on_a($classes, $item, $args)
+{
+    if (isset($args->add_a_class)) {
+        $classes['class'] = $args->add_a_class;
+    }
+    return $classes;
+}
+
+add_filter('nav_menu_link_attributes', 'add_additional_class_on_a', 1, 3);
+

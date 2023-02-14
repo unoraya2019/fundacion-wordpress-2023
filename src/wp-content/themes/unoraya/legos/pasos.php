@@ -5,7 +5,7 @@
     <div class="max-content pasos_content__encabezado">
         <?php echo get_sub_field('encabezado'); ?>
         <?php if(get_sub_field('link')): ?>
-            <a class="btn-seguir-en ff-lato"
+            <a class="btn-seguir-en ff-lato ntag44"
                 onclick="pushEventGTM(this, '<?php echo get_sub_field('link'); ?>', '_blank')"> Seguir enlace</a>
         <?php endif; ?>
     </div>
@@ -39,7 +39,7 @@
                         <?php endif; ?>
                         <div class="txt-prt position-relative after-po">
                             <div class="position-relative z-index-5">
-                                <?php echo get_sub_field('contenido'); ?>
+                                <?php echo str_replace('class="text-uppercase"','class="text-uppercase anchortag"',get_sub_field('contenido')); ?>
                             </div>
                         </div>
                     </div>

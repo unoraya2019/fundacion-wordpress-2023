@@ -49,12 +49,12 @@
                                          '<?php echo $link_target; ?>',
                                          'h3',
                                          '<?php echo $titleSectionPrograma.' ' .get_sub_field('titulo'); ?>')"
-                  class="after-po before-po position-relative"><?php echo esc_html( $link_title ); ?></a>
+                  class="after-po before-po position-relative ntag5" data-title="<?php echo get_sub_field('titulo'); ?>"><?php echo esc_html( $link_title ); ?></a>
               </div>
               <div class="on-hover-show position-absolute d-flex align-items-center"></div>
               <div class="on-hover-2div position-absolute d-flex align-items-center">
                 <p><?php echo get_sub_field('descripcion'); ?></p>
-                <a class="btn-read-mr position-absolute"
+                <a class="btn-read-mr position-absolute ntag5" data-title="<?php echo get_sub_field('titulo'); ?>"
                     onclick="pushEventGTM(this,
                                          '<?php echo $link_url; ?>',
                                          '<?php echo $link_target; ?>',

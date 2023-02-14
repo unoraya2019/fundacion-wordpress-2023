@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
+                        <h2 class="accordion-header" id="headingOne" >
                           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Nuestros programas
                           </button>
@@ -155,7 +155,8 @@
                     <mini-title>Nuestros programas</mini-title>
                     <?php wp_nav_menu(array(
                       'menu' => 'footer',
-                      'container' => ''
+                      'container' => '',
+                      'add_a_class'     => 'footertag ntag9',
                     )); ?>
                 </div>
                 <div class="footer-menu two d-none-767">
@@ -163,7 +164,8 @@
                     <div class="if-two-ul-is-there">
                         <?php wp_nav_menu(array(
                           'menu' => 'footer2',
-                          'container' => ''
+                          'container' => '',
+                          'add_a_class'     => 'footertag ntag10',
                         )); ?>
                     </div>
                     <br>
@@ -171,7 +173,8 @@
                     <div class="if-two-ul-is-there">
                         <?php wp_nav_menu(array(
                           'menu' => 'footer3',
-                          'container' => ''
+                          'container' => '',
+                          'add_a_class'     => 'footertag ntag11',
                         )); ?>
                     </div>
                 </div>
@@ -231,6 +234,7 @@
     $pathFileUtilsJs = esc_url( get_template_directory_uri() . '/js/'.$utilsJs );
 ?>
 <script src="<?php echo $pathFileUtilsJs; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/js/newGTM.js'; ?>"></script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

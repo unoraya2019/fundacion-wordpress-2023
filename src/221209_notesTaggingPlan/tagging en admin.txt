@@ -1,0 +1,25 @@
+-Sección 11 para este post en el administrador:
+http://localhost/wp-admin/post.php?post=342&action=edit
+
+-Elegir la opción texto y cambiar por el siguiente:
+
+
+<p style="text-align: center;"><span style="font-weight: 400;">*El diligenciamiento y envío de los formatos solicitados, no es garantía de aprobación.</span></p>
+
+<h3 class="ff-sans-b" style="text-align: center;"><a href="https://fundacionbolivardavivienda.secure.force.com/INVX_InscripcioninvSocial_pag" target="_blank" rel="noopener" onclick="dataLayer.push({'eventCategory': 'Programa - Inversion social','eventAction': 'Click','eventLabel': '9.1.2 DT - Para solicitar recursos ingrese aqui','eventValue': '','event': 'eventClick'}); console.log(dataLayer)
+">Para solicitar recursos ingrese aquí</a></h3>
+
+click en actualizar
+
+##########################################################
+-Sección 1 para este post en el administrador:
+http://localhost/wp-admin/post.php?post=142&action=edit
+
+-Elegir la opción texto y cambiar por el siguiente:
+
+Esta iniciativa del Grupo Bolívar premia al periodista por su trabajo y beneficia a todos aquellos quienes, desde el rigor y la ética, ejercen el periodismo en medios radiales, audiovisuales, impresos y digitales.
+
+Por otra parte, el premio otorga becas anuales a periodistas que inician su carrera; además, mediante esta beca podrán acceder a importantes talleres de formación con maestros sobresalientes en el oficio.
+
+Para conocer más acerca de este programa, visita: <a href="https://premiosimonbolivar.com/" target="_blank" rel="noopener" onclick="dataLayer.push({'eventCategory': 'Programa - PNP','eventAction': 'Link','eventLabel': '10. Conozca mas del programa en su web','eventValue': '','event': 'eventClick'});
+console.log(dataLayer)">premiosimonbolivar.com</a>
