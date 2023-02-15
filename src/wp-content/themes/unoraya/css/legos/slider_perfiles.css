@@ -1,55 +1,55 @@
-    section.slider_perfiles {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    section.slider_perfiles > h2 {
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    .slider_perfiles .swiper-slide {
-        max-width: 340px;
-        background-color: #fafafa;
-        align-items: center;
-    }
-    .slider_perfiles .swiper-slide img {
-        max-width: 360px;
-    }
-    .slider_perfiles__text {
-        padding: 0px 20px;
-    }
-    .slider_perfiles__text h2{
-        font-size: 24px;
-        line-height: 1;
-        margin: 0 0 5px;
-    }
-    .slider-home__flechas {
-        margin-top: 40px;
-        padding-bottom: 40px;
-    }
-    .slider_perfiles:nth-child(odd) {
-        background: #e6e6e6;
-        padding: 70px 0px;
-    }
-    .slider_perfiles__contenido_p {
-        max-width: initial !important;
-        padding: 20px 10px;
+section.slider_perfiles {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section.slider_perfiles > h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.slider_perfiles .swiper-slide {
+    max-width: 340px;
+    background-color: #fafafa;
+    align-items: center;
+}
+.slider_perfiles .swiper-slide img {
+    max-width: 160px;
+}
+.slider_perfiles__text {
+    padding: 0px 20px;
+}
+.slider_perfiles__text h2{
+    font-size: 22px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+.slider-home__flechas {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.slider_perfiles:nth-child(odd) {
+    background: #e6e6e6;
+    padding: 70px 0px;
+}
+.slider_perfiles__contenido_p {
+    max-width: initial !important;
+    padding: 20px 10px;
+    flex-flow: column;
+    height: auto;
+}
+.slider_perfiles__text__parrafo {
+    font-size: 12px;
+    text-align: justify;
+}
+.slider_perfiles__contenido_p .slider_perfiles__text {
+    padding-top: 10px;
+}
+@media (max-width: 1000px) {
+  .slider_perfiles__contenido_p {
+        min-width: 100%;
         flex-flow: column;
-        height: auto;
+        padding-top: 20px;
+  }
+   .slider_perfiles .swiper-slide {
+        max-width: 100%;
     }
-    .slider_perfiles__text__parrafo {
-        font-size: 16px;
-        text-align: justify;
-    }
-    .slider_perfiles__contenido_p .slider_perfiles__text {
-        padding-top: 10px;
-    }
-    @media (max-width: 1000px) {
-      .slider_perfiles__contenido_p {
-            min-width: 100%;
-            flex-flow: column;
-            padding-top: 20px;
-      }
-       .slider_perfiles .swiper-slide {
-            max-width: 100%;
-        }
-    }
+}
