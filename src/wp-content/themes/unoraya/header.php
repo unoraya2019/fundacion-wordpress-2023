@@ -34,7 +34,7 @@
 
   gtag('config', 'AW-862755000');
 </script>
-	
+
 <!-- Evento Facebook Rastreo de botón Agéndese Aquí-->
 
 <script> 
@@ -109,7 +109,7 @@ src="https://www.facebook.com/tr?id=2724457791023106&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
-	
+
 <!-- Event snippet for PAGE VIEW conversion page  PIXEL GOOGLE ADS PROGRAMA EMPRENDE PAIS-->
 <script>
   gtag('event', 'conversion', {'send_to': 'AW-861352918/kehICIf284UYENbn3JoD'});
@@ -235,6 +235,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     		})();
 	</script>
 
+  <!-- PIXEL ELOQUA first party cookies -->
+
+	<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '23677991']);
+_elqQ.push(['elqUseFirstPartyCookie', ' mkt.fundacionbolivardavivienda.org']);
+_elqQ.push(['elqTrackPageView']);
+(function() {
+function async_load() {
+var s = document.createElement('script'); s.type =
+'text/javascript';
+s.async = true;
+s.src = '//img.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if(window.addEventListener) window.addEventListener
+('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload',
+async_load);
+})();
+</script>
+
 	<!-- Google tag (gtag.js)  PIXEL APX GOOGLE ANALYTICS-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121077039-7"></script>
 	<script>
@@ -268,8 +291,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3234SQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	
-	
+
+
 <!-- Facebook Pixel (noscript) -->
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=545571769782600&ev=PageView&noscript=1"
