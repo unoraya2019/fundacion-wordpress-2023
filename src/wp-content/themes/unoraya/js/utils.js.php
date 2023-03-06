@@ -136,11 +136,14 @@ function showHideCookie(diplay) {
 $(".footertag").on('click', function(e){
     let tag = {'eventCategory': window.location.pathname,'eventAction': 'Click','eventLabel': 'Footer - '+$(this).text(),'eventValue': '','event': 'eventClick'}
     dataLayer.push(tag);
-    console.log(tag)
 })
 
 $(".anchortag").on('click', function(e){
-    let tag = dataLayer.push({'eventCategory': 'Programa - FJC','eventAction': 'Click','eventLabel': '8.3.1.2 Audiciones - Requisitos - Texto completo de requerimientos ','eventValue': '','event': 'eventClick'});
+    let tag = {'eventCategory': 'Programa - FJC','eventAction': 'Click','eventLabel': '8.3.1.2 Audiciones - Requisitos - Texto completo de requerimientos ','eventValue': '','event': 'eventClick'};
     dataLayer.push(tag);
-    console.log(tag)
+})
+
+$("#sendFormContact").on('click', function(e){
+    let tag = {'eventCategory': 'contacto','eventAction': 'Click','eventLabel': 'enviar','eventValue': '','event': 'eventClick'};
+    dataLayer.push(tag);
 })
