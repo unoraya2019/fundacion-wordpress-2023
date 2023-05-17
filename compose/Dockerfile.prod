@@ -1,8 +1,15 @@
 FROM wordpress:6.0-php7.4-apache
 
+RUN apt-get update \
+    && apt-get install -y libpq-dev \
+    && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
+    && docker-php-ext-install pdo pdo_pgsql pgsql
+
 COPY --chown=www-data:www-data ./src/wp-content /var/www/html/wp-content
 COPY --chown=www-data:www-data ./src/assets/css /var/www/html/css
 COPY --chown=www-data:www-data ./src/assets/js /var/www/html/js
 
 RUN sed -i 's/max_execution_time = 30/max_execution_time = 300/g' "$PHP_INI_DIR/php.ini-production"
+RUN sed -i 's/max_execution_time = 30/max_execution_time = 300/g' "$PHP_INI_DIR/php.ini-production"
+
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
