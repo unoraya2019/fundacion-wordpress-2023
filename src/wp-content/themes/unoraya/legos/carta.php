@@ -3,11 +3,9 @@
 <section class="carta_director">
     <?php
         $imageCD = get_sub_field('imagen');
-        $urlCD = $imageCD['url'];
-        $altCD = $imageCD['alt'];
     ?>
-    <img src="<?php echo esc_url($urlCD); ?>"
-        alt="<?php echo esc_attr($altCD); ?>">
+    <img src="<?php echo $imageCD; ?>"
+        alt="imagen del perfíl">
     <h2><?php echo get_sub_field('titulo'); ?></h2>
     <h3><?php echo get_sub_field('subtitulo'); ?></h3>
     <div class="flex carta_director__content">
