@@ -1,7 +1,5 @@
 <?php
     $imageTI = get_sub_field('imagen');
-    $urlTI = $imageTI['url'];
-    $altTI = $imageTI['alt'];
 if ( !isset($loadTextoConImagen) ){
     $loadTextoConImagen = true;
     $buildTextoConImagenCss = esc_url( get_template_directory_uri() . '/css/legos/texto_con_imagen.css' );
@@ -39,8 +37,8 @@ if ( !isset($loadTextoConImagen) ){
                 <?php endif; ?>
             </div>
             <div data-wow-duration="2.5s" class="img-rrt-pr order-2-991 wow bounceInRight">
-                <img  src="<?php echo esc_url($urlTI); ?>"
-                    alt="<?php echo esc_attr($altTI); ?>"
+                <img  src="<?php echo $imageTI; ?>"
+                    alt="imagen de la sección"
                     class="object-fit-cover">
             </div>
         </div>
