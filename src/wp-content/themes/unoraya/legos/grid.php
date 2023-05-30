@@ -26,8 +26,6 @@
                 } else {
                     $imageG = get_sub_field('imagen');
                 }
-                $urlG = $imageG['url'];
-                $altG = $imageG['alt'];
                 $linkG = get_sub_field('link');
                 $link_url = $linkG['url'];
                 $link_title = $linkG['title'];
@@ -35,10 +33,10 @@
             ?>
             <div class="program-box position-relative fr-width-height">
               <div class="for-img position-absolute">
-                <img src="<?php echo esc_url($urlG); ?>" alt="<?php echo esc_attr($altG); ?>" class="object-fit-cover"/>
+                <img src="<?php echo esc_url($imageG); ?>" alt="<?php echo esc_attr($link_title); ?>" class="object-fit-cover"/>
               </div>
               <div class="for-img d-none-n d-block-767 position-absolute">
-                <img src="<?php echo esc_url($urlG); ?>" alt="<?php echo esc_attr($altG); ?>" class="object-fit-cover"/>
+                <img src="<?php echo esc_url($imageG); ?>" alt="<?php echo esc_attr($link_title); ?>" class="object-fit-cover"/>
               </div>
               <div class="title-tx position-absolute text-white ff-sans-b">
                 <h3><?php echo get_sub_field('titulo'); ?></h3>
