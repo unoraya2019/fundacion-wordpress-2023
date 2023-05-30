@@ -8,12 +8,10 @@
           <?php while(the_repeater_field('logosC')): ?>
             <?php
                 $imageLG = get_sub_field('imagen');
-                $urlLG = $imageLG['url'];
-                $altLG = $imageLG['alt'];
             ?>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="<?php echo esc_url($urlLG); ?>"
-                   alt="<?php echo esc_attr($altLG); ?>">
+              <img src="<?php echo $imageLG; ?>"
+                   alt="logo">
             </div>
           <?php endwhile; ?>
         <?php endif; ?>
