@@ -25,8 +25,8 @@
                     
                     <h3><?php echo get_sub_field('titulo'); ?></h3>
                     <img class="img-fluid"
-                         src="<?php echo esc_url($urlPF); ?>"
-                         alt="<?php echo esc_attr($altPF); ?>">
+                         src="<?php echo $imagePF; ?>"
+                         alt="<?php echo get_sub_field('titulo'); ?>">
                     <p><?php echo get_sub_field('contenido'); ?></p>
                     <?php if(get_sub_field('url')): ?>
                     <a class="btn btn-primary ntag53" target="_blank" data-title="<?php echo get_sub_field('titulo'); ?> - <?php echo esc_html( $link_titlePF ); ?>"
@@ -36,8 +36,8 @@
                 <?php else:  ?>
                 <div class="perfiles__item perfiles__item__small">
                     <h3><?php echo get_sub_field('titulo'); ?></h3>
-                    <img src="<?php echo esc_url($urlPF); ?>"
-                         alt="<?php echo esc_attr($altPF); ?>">
+                    <img src="<?php echo $imagePF; ?>"
+                         alt="<?php echo get_sub_field('titulo'); ?>">
                     <?php if(get_sub_field('url')): ?>
                     <a class="btn btn-primary tag ntag30" data-title="<?php echo get_sub_field('titulo'); ?>"
                         onclick="pushEventGTM(this, '<?php echo esc_url( $link_urlPF ); ?>', '<?php echo esc_attr( $link_targetPF ); ?>')"><?php echo esc_html( $link_titlePF ); ?></a>
