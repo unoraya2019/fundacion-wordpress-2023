@@ -12,12 +12,7 @@
         <ul class="d-flex">
             <?php if(get_sub_field('imagenes')): ?>
               <?php while(the_repeater_field('imagenes')): ?>
-                <?php
-                    $image = get_sub_field('imagen');
-                    $url = $image['url'];
-                    $alt = $image['alt'];
-                ?>
-                <li><img src="<?php echo esc_url($url); ?>" alt="<?php echo esc_attr($alt); ?>" class="object-fit-cover"></li>
+                <li><img src="<?php echo get_sub_field('imagen'); ?>" alt="<?php echo get_sub_field('titulo'); ?>" class="object-fit-cover"></li>
               <?php endwhile; ?>
             <?php endif; ?>
         </ul>
