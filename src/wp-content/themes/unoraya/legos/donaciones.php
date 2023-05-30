@@ -1,7 +1,5 @@
 <?php
     $imageDn = get_sub_field('imagen');
-    $urlDn = $imageDn['url'];
-    $altDn = $imageDn['alt'];
     $linkDn = get_sub_field('link');
     $link_urlDn = $linkDn['url'];
     $link_titleDn = $linkDn['title'];
@@ -10,8 +8,8 @@
 <?php $buildDonacionesCss = esc_url( get_template_directory_uri() . '/css/legos/donaciones.css' ); ?>
 <link rel="stylesheet" href="<?php echo $buildDonacionesCss; ?>" async defer>
 <section class="max-content donaciones">
-    <img src="<?php echo esc_url($urlDn); ?>"
-                 alt="<?php echo esc_attr($altDn); ?>"
+    <img src="<?php echo $imageDn; ?>"
+                 alt="imagen de donaciones"
                  class="object-fit-cover"/>
     <h5>Recaudado</h5>
     <div class="progress">
