@@ -5,8 +5,6 @@
     } else {
         $imageBB = get_sub_field('banner');
     }
-    $urlBB = $imageBB['url'];
-    $altBB = $imageBB['alt'];
 ?>
 <?php $buildBannerConBreancrumbCss = esc_url( get_template_directory_uri() . '/css/legos/banner_con_breadcrumb.css' ); ?>
 <link rel="stylesheet" href="<?php echo $buildBannerConBreancrumbCss; ?>" async defer>
@@ -49,8 +47,8 @@
     </div>
     <?php if(get_sub_field('banner')): ?>
       <div class="img-prt position-relative">
-          <img src="<?php echo esc_url($urlBB); ?>"
-               alt="<?php echo esc_attr($altBB); ?>"
+          <img src="<?php echo $imageBB; ?>"
+               alt="banner programa"
                class="object-fit-cover"></div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 data-wow-duration="2s" class="ff-sans-b wow bounceInDown"><?php echo get_sub_field('titulo'); ?></h1>
