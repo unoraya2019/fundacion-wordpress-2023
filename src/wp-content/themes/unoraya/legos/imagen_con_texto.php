@@ -1,7 +1,5 @@
 <?php
     $imageIT = get_sub_field('imagen');
-    $urlIT = $imageIT['url'];
-    $altIT = $imageIT['alt'];
 if ( !isset($loadImagenConTexto) ){
     $loadImagenConTexto = true;
     $buildImagenConTextoCss = esc_url( get_template_directory_uri() . '/css/legos/imagen_con_texto.css' );
@@ -13,8 +11,8 @@ if ( !isset($loadImagenConTexto) ){
     <div class="d-flex multiple-reapt align-items-start part-two flex-wrap-991">
       <div data-wow-duration="2.5s"
          class="img-points order-2-991  wow bounceInRight">
-          <img src="<?php echo esc_url($urlIT); ?>"
-                alt="<?php echo esc_attr($altIT); ?>"
+          <img src="<?php echo esc_url($imageIT); ?>"
+                alt="imagen de la sección"
                 class="object-fit-cover">
       </div>
       <div data-wow-duration="1s"
