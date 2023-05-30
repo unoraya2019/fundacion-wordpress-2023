@@ -1,7 +1,5 @@
 <?php
     $imageBD = get_sub_field('imagen');
-    $urlBD = $imageBD['url'];
-    $altBD = $imageBD['alt'];
     $linkBD = get_sub_field('link');
     $link_urlBD = $linkBD['url'];
     $link_titleBD = $linkBD['title'];
@@ -22,8 +20,8 @@
                 </div>
             </div>
             <div data-wow-duration="1s" class="right-img position-relative wow slideInRight">
-                <img src="<?php echo esc_url($urlBD); ?>"
-                     alt="<?php echo esc_attr($altBD); ?>"
+                <img src="<?php echo esc_url($imageBD); ?>"
+                     alt="<?php echo esc_attr($link_titleBD); ?>"
                      class="object-fit-cover"/>
             </div>
         </div>
